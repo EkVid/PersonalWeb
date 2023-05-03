@@ -16,16 +16,34 @@ import Toasts from "./toasts/toastd";
 import Toastss from "./toasts/toastw";
 import Toastsss from "./toasts/toastm";
 import Toastssss from "./toasts/toastm2";
+import Toasti from "./toasts/toasti";
 
 const Avatars = () => {
   return (
     <Stack direction="row">
-      <Link href="https://www.instagram.com/austin_ed7/">
-        <Button variant="unstyled" size="sm" pr={200}>
-          {" "}
-          <AiFillInstagram size={100} />
-        </Button>
-      </Link>
+      <Button variant="unstyled" size="sm" pr={150}>
+        {" "}
+        <Menu>
+          <MenuButton>
+            {" "}
+            <AiFillInstagram size={100} />
+          </MenuButton>
+          <Portal>
+            <MenuList>
+              <MenuItem
+                onClick={() => navigator.clipboard.writeText("austin_ed7")}
+              >
+                <Toasti />
+              </MenuItem>
+              <Alert>
+                <AlertIcon />
+                Click to save it!
+              </Alert>
+            </MenuList>
+          </Portal>
+        </Menu>
+      </Button>
+
       <Button variant="unstyled" size="sm" pr={150}>
         {" "}
         <Menu>
