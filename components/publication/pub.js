@@ -23,7 +23,7 @@ const Pub = () => {
         <Text
           fontSize="6xl"
           spacing={3}
-          pt={300}
+          pt={600}
           fontWeight={"bold"}
           fontFamily={"serif"}
         >
@@ -31,6 +31,8 @@ const Pub = () => {
         </Text>
       </Center>
       <Divider />
+      <br></br> 
+      <br></br>
       <br></br>
       <Grid gap={6}>
         {" "}
