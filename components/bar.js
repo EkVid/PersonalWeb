@@ -217,13 +217,13 @@ const Bar = () => {
                 </Button>
               </Link>
 
-              <Link href="https://github.com">
+              <Link href="https://github.com/EkVid">
                 <Button variant="ghost" size="sm">
                   {" "}
                   <AiFillGithub size={25} />
                 </Button>
               </Link>
-              <Link href="https://www.linkedin.com/feed/">
+              <Link href="https://www.linkedin.com/in/austin-yang-3544061ba/">
                 <Button variant="ghost" size="sm">
                   {" "}
                   <AiFillLinkedin size={25} />
