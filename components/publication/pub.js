@@ -31,9 +31,10 @@ const Pub = () => {
         </Text>
       </Center>
       <Divider />
-      <br></br> 
       <br></br>
       <br></br>
+      <br></br>
+
       <Grid gap={6}>
         {" "}
         <Card>
@@ -68,7 +69,8 @@ const Pub = () => {
                 <Heading size="xs" textTransform="uppercase">
                   <Link
                     href="https://www.tmrjournals.com/public/articlePDF/20230111/6c18f051d1e13b640e5169111faeef1e.pdf"
-                    isExternal
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Full Article Link <ExternalLinkIcon mx="2px" />
                   </Link>
