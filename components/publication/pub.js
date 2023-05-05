@@ -21,7 +21,7 @@ const Pub = () => {
     <div>
       <Center>
         <Text
-          fontSize="6xl"
+          fontSize={{ base: "35px", md: "40px", lg: "56px" }}
           spacing={3}
           pt={600}
           fontWeight={"bold"}
@@ -31,6 +31,10 @@ const Pub = () => {
         </Text>
       </Center>
       <Divider />
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <br></br>
       <br></br>
       <br></br>
