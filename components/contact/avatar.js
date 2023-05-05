@@ -20,17 +20,29 @@ import Toasti from "./toasts/toasti";
 
 const Avatars = () => {
   return (
-<Stack direction="row">
+    <Stack direction="row">
       <Button variant="unstyled" size="sm" pr={150}>
         {" "}
-        <Link href="https://instagram.com/austin_ed7?igshid=YmMyMTA2M2Y=">
-          <Menu>
-            <MenuButton>
-              {" "}
-              <AiFillInstagram size={100} />
-            </MenuButton>
-          </Menu>
-        </Link>
+        <Menu>
+          <MenuButton>
+            {" "}
+            <AiFillInstagram size={100} />
+          </MenuButton>
+          <Portal>
+            <></>
+            <MenuList>
+              <MenuItem
+                onClick={() => navigator.clipboard.writeText("austin_ed7")}
+              >
+                <Toasti />
+              </MenuItem>
+              <Alert>
+                <AlertIcon />
+                Click to save it!
+              </Alert>
+            </MenuList>
+          </Portal>
+        </Menu>
       </Button>
 
       <Button variant="unstyled" size="sm" pr={150}>
