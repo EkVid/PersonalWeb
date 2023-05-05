@@ -6,7 +6,7 @@ const T = () => {
     <div>
       <Center>
         <Text
-          fontSize="6xl"
+          fontSize={{ base: "35px", md: "40px", lg: "56px" }}
           spacing={3}
           pt={100}
           fontWeight={"bold"}
@@ -17,7 +17,7 @@ const T = () => {
       </Center>
       <Divider />
       <Center>
-        <Text fontSize="5xl" spacing={2} pt={10}>
+        <Text spacing={2} pt={10}>
           <Codes />
         </Text>
       </Center>
