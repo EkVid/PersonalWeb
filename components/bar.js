@@ -139,13 +139,21 @@ const Bar = () => {
                     Contact
                   </Button>
                 </Link>
-                <Link href="https://github.com/EkVid">
+                <Link
+                  href="https://github.com/EkVid"
+                  leftIcon={<CheckCircleIcon />}
+                  size="sm"
+                >
                   <Button variant="ghost" size="sm">
                     {" "}
                     <AiFillGithub size={25} />
                   </Button>
                 </Link>
-                <Link href="https://www.linkedin.com/in/austin-yang-3544061ba/">
+                <Link
+                  href="https://www.linkedin.com/in/austin-yang-3544061ba/"
+                  leftIcon={<CheckCircleIcon />}
+                  size="sm"
+                >
                   <Button variant="ghost" size="sm">
                     {" "}
                     <AiFillLinkedin size={25} />
