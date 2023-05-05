@@ -28,6 +28,7 @@ const Avatars = () => {
             <MenuButton>
               {" "}
               <AiFillInstagram size={100} />
+            </MenuButton>
           </Menu>
         </Link>
       </Button>
