@@ -9,7 +9,7 @@ const Titles = () => {
           spacing={3}
           pt={50}
           fontWeight={"bold"}
-          fontFamily={"cursive"}
+          fontFamily={"serif"}
         >
           My Story
         </Text>
@@ -23,7 +23,7 @@ const Titles = () => {
           pt={50}
           pl={15}
           fontWeight={"bold"}
-          fontFamily={"cursive"}
+          fontFamily={"serif"}
         >
           {" "}
           A little about me:{" "}
