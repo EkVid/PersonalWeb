@@ -9,7 +9,7 @@ import {
   Toast,
 } from "@chakra-ui/react";
 import { AiFillInstagram } from "react-icons/ai";
-import { AiFillPhone, AiFillMail } from "react-icons/ai";
+import { AiFillPhone, AiFillMail, AiFillLinkedin } from "react-icons/ai";
 import { Menu, MenuButton, Portal, MenuItem, MenuList } from "@chakra-ui/react";
 import { Alert, AlertIcon } from "@chakra-ui/react";
 import Toasts from "./toasts/toastd";
@@ -45,7 +45,18 @@ const Avatars = () => {
         </Menu>
       </Button>
 
-      <Button variant="unstyled" size="sm" pr={150}>
+      <Link
+        href="https://www.linkedin.com/in/austin-yang-3544061ba/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Button variant="unstyled" size="sm" pr={150}>
+          {" "}
+          <AiFillLinkedin size={100} />
+        </Button>
+      </Link>
+
+      <Button variant="unstyled" size="sm" pr={70}>
         {" "}
         <Menu>
           <MenuButton>
@@ -67,7 +78,7 @@ const Avatars = () => {
           </Portal>
         </Menu>
       </Button>
-      <Button variant="unstyled" size="sm" pl={150}>
+      <Button variant="unstyled" size="sm" pl={100}>
         {" "}
         <Menu>
           <MenuButton>
