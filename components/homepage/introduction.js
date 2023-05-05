@@ -5,7 +5,12 @@ const Introduction = () => {
   return (
     <div>
       <Center>
-        <Text fontSize="2xl" spacing={3} pt={5} fontFamily={"serif"}>
+        <Text
+          fontSize={{ base: "15px", md: "20px", lg: "25px" }}
+          spacing={3}
+          pt={5}
+          fontFamily={"serif"}
+        >
           <center>
             2nd year Co-op CS and Biochemistry Student at University of Toronto.
           </center>
