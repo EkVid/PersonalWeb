@@ -4,10 +4,10 @@ const Im = () => {
   return (
     <Center pt={70}>
       <Image
-        boxSize="800px"
         src="/images/tech.jpg"
-        alt="Resume"
-        width={700}
+        alt="Resume Tech"
+        width={{ base: "90%", md: "70%", lg: "50%" }}
+        height={{ base: "auto", md: "auto", lg: "auto" }}
         border="5px solid grey"
       />
     </Center>
