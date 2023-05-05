@@ -6,12 +6,10 @@ import Color_change from "./color_change";
 import { chakra } from "@chakra-ui/react";
 import {
   AttachmentIcon,
-  CopyIcon,
   ChatIcon,
   CheckCircleIcon,
   EditIcon,
   InfoIcon,
-  StarIcon,
 } from "@chakra-ui/icons";
 import {
   Flex,
@@ -25,12 +23,9 @@ import {
 import {
   AiOutlineMenu,
   AiFillHome,
-  AiOutlineInbox,
-  AiFillBell,
   AiFillGithub,
   AiFillLinkedin,
 } from "react-icons/ai";
-import { BsFillCameraVideoFill, BsPlus } from "react-icons/bs";
 import { VisuallyHidden } from "@chakra-ui/react";
 import { Avatar } from "@chakra-ui/react";
 
@@ -144,6 +139,18 @@ const Bar = () => {
                     Contact
                   </Button>
                 </Link>
+                <Link href="https://github.com/EkVid">
+                  <Button variant="ghost" size="sm">
+                    {" "}
+                    <AiFillGithub size={25} />
+                  </Button>
+                </Link>
+                <Link href="https://www.linkedin.com/in/austin-yang-3544061ba/">
+                  <Button variant="ghost" size="sm">
+                    {" "}
+                    <AiFillLinkedin size={25} />
+                  </Button>
+                </Link>
               </VStack>
             </Box>
             <chakra.a
@@ -217,13 +224,21 @@ const Bar = () => {
                 </Button>
               </Link>
 
-              <Link href="https://github.com/EkVid">
+              <Link
+                href="https://github.com/EkVid"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button variant="ghost" size="sm">
                   {" "}
                   <AiFillGithub size={25} />
                 </Button>
               </Link>
-              <Link href="https://www.linkedin.com/in/austin-yang-3544061ba/">
+              <Link
+                href="https://www.linkedin.com/in/austin-yang-3544061ba/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button variant="ghost" size="sm">
                   {" "}
                   <AiFillLinkedin size={25} />
