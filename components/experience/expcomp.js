@@ -17,14 +17,20 @@ const ProjectPreview = ({ isHero }) => {
         bg: "gray.800",
       }}
     >
-      <Image
-        roundedTop="lg"
-        w="full"
-        h={height}
-        fit="cover"
-        src="/images/game.png"
-        border={"5px solid grey"}
-      />
+      <Link
+        href="https://www.youtube.com/watch?v=Y7fxK1sJOFU"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image
+          roundedTop="lg"
+          w="full"
+          height={height}
+          fit="cover"
+          src="/images/game.png"
+          border={"5px solid grey"}
+        />
+      </Link>
 
       <Box p={6}>
         <Box>
