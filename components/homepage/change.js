@@ -5,7 +5,7 @@ const Changes = () => {
   return (
     <Center>
       <Text
-        fontSize="4xl"
+        fontSize={{ base: "25px", md: "33px", lg: "40px" }}
         spacing={3}
         pt={0}
         fontWeight={"bold"}
