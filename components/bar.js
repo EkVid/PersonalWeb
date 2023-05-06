@@ -129,7 +129,7 @@ const Bar = () => {
                     w="full"
                     variant="ghost"
                     //colorScheme="brand"
-                    leftIcon={<AttachmentIcon />}
+                    leftIcon={<EditIcon />}
                   >
                     Publications
                   </Button>
@@ -139,7 +139,7 @@ const Bar = () => {
                     w="full"
                     variant="ghost"
                     //colorScheme="brand"
-                    leftIcon={<AttachmentIcon />}
+                    leftIcon={<ChatIcon />}
                   >
                     Contact
                   </Button>
