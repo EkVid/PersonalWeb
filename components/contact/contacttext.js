@@ -6,11 +6,11 @@ const Contacttext = () => {
     <div>
       <Center>
         <Text
-          fontSize="6xl"
+          fontSize={{ base: "35px", md: "40px", lg: "56px" }}
           spacing={3}
           fontFamily={"serif"}
           fontWeight={"bold"}
-          top="20px"
+          pt={{ base: "700px", lg: "20px" }}
         >
           Get In Touch
         </Text>
@@ -19,7 +19,7 @@ const Contacttext = () => {
       <br></br>
       <Center>
         <Text
-          fontSize="2xl"
+          fontSize={{ base: "18px", md: "26px", lg: "30px" }}
           spacing={3}
           pt={30}
           fontFamily={"serif"}
