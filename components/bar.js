@@ -94,6 +94,11 @@ const Bar = () => {
                     HomePage
                   </Button>
                 </Link>
+                <Link href="/aboutme">
+                  <Button variant="ghost" leftIcon={<InfoIcon />} size="sm">
+                    About Me
+                  </Button>
+                </Link>
                 <Menu>
                   <Button
                     variant="ghost"
@@ -114,7 +119,7 @@ const Bar = () => {
                     </Portal>
                   </Button>
                 </Menu>
-                <Link href="/experiences">
+                <Link href="/exp_small">
                   <Button w="full" variant="ghost" leftIcon={<AiFillHome />}>
                     Experiences
                   </Button>
