@@ -20,8 +20,8 @@ import Toasti from "./toasts/toasti";
 
 const Avatars = () => {
   return (
-    <Stack direction="row">
-      <Button variant="unstyled" size="sm" pr={150}>
+    <Stack direction={{ base: "column", lg: "row" }}>
+      <Button variant="unstyled" size="sm" pr={{ lg: "150px" }}>
         {" "}
         <Menu>
           <MenuButton>
@@ -44,19 +44,39 @@ const Avatars = () => {
           </Portal>
         </Menu>
       </Button>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
 
       <Link
         href="https://www.linkedin.com/in/austin-yang-3544061ba/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Button variant="unstyled" size="sm" pr={150}>
+        <Button
+          variant="unstyled"
+          size="sm"
+          pr={{ lg: "150px" }}
+          pt={{ lg: "0px" }}
+        >
           {" "}
           <AiFillLinkedin size={100} />
         </Button>
       </Link>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
 
-      <Button variant="unstyled" size="sm" pr={70}>
+      <Button
+        variant="unstyled"
+        size="sm"
+        pr={{ lg: "70px" }}
+        pt={{ lg: "0px" }}
+      >
         {" "}
         <Menu>
           <MenuButton>
@@ -78,7 +98,17 @@ const Avatars = () => {
           </Portal>
         </Menu>
       </Button>
-      <Button variant="unstyled" size="sm" pl={100}>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <Button
+        variant="unstyled"
+        size="sm"
+        pl={{ lg: "100px" }}
+        pt={{ lg: "0px" }}
+      >
         {" "}
         <Menu>
           <MenuButton>
@@ -106,7 +136,17 @@ const Avatars = () => {
           </Portal>
         </Menu>
       </Button>
-      <Button variant="unstyled" size="sm" pl={200}>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <Button
+        variant="unstyled"
+        size="sm"
+        pl={{ lg: "200px" }}
+        pt={{ lg: "0px" }}
+      >
         {" "}
         <Menu>
           <MenuButton>
@@ -137,6 +177,11 @@ const Avatars = () => {
           </Portal>
         </Menu>
       </Button>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
     </Stack>
   );
 };
