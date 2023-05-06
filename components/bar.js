@@ -119,7 +119,7 @@ const Bar = () => {
                     </Portal>
                   </Button>
                 </Menu>
-                <Link href="/exp_small">
+                <Link href="/exp_S">
                   <Button w="full" variant="ghost" leftIcon={<AiFillHome />}>
                     Experiences
                   </Button>
