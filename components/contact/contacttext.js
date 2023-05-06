@@ -15,7 +15,7 @@ const Contacttext = () => {
           Get In Touch
         </Text>
       </Center>
-      <Divider />
+
       <br></br>
       <Center>
         <Text
