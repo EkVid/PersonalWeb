@@ -15,7 +15,7 @@ const T = () => {
           AUSTIN YANG
         </Text>
       </Center>
-      <Divider />
+
       <Center>
         <Text spacing={2} pt={10}>
           <Codes />
