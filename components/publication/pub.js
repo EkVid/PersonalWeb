@@ -18,7 +18,7 @@ const Pub = () => {
           Article Publications
         </Text>
       </Center>
-      <Divider />
+
       <br></br>
       <br></br>
       <br></br>
