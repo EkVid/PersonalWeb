@@ -1,16 +1,4 @@
-import {
-  Card,
-  CardBody,
-  Text,
-  Stack,
-  Box,
-  Heading,
-  StackDivider,
-  CardHeader,
-  Grid,
-  Center,
-  Divider,
-} from "@chakra-ui/react";
+import { Text, Center, Divider } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import Progresses from "./progress";
 
@@ -23,7 +11,7 @@ const Pub = () => {
         <Text
           fontSize={{ base: "35px", md: "40px", lg: "56px" }}
           spacing={3}
-          pt={600}
+          pt={{ base: 800, md: 600, lg: 700 }}
           fontWeight={"bold"}
           fontFamily={"serif"}
         >
@@ -34,93 +22,122 @@ const Pub = () => {
       <br></br>
       <br></br>
       <br></br>
+      <br></br>{" "}
+      <Text
+        fontSize={{ base: "20px", md: "25px", lg: "30px" }}
+        fontFamily={"serif"}
+      >
+        Coronavirus Detection using photonics (surface enhanced Raman Scattering
+        and FRET)
+      </Text>
+      <br></br>
+      <Divider />
+      <br></br>
+      <Text
+        fontSize={{ base: "10px", md: "15px", lg: "15px" }}
+        fontFamily={"serif"}
+        fontWeight={"bold"}
+      >
+        KEYWORDS{" "}
+      </Text>
+      <br></br>
+      <Text
+        fontSize={{ base: "15px", md: "20px", lg: "20px" }}
+        fontFamily={"serif"}
+      >
+        COVID-19; coronavirus; ACE2; virus detection; photonics;
+        surface-enhanced Raman scattering; fluorescence resonance energy
+        transfer
+      </Text>
+      <br></br>
+      <Divider />
+      <br></br>
+      <Text
+        fontSize={{ base: "10px", md: "15px", lg: "15px" }}
+        fontFamily={"serif"}
+        fontWeight={"bold"}
+      >
+        CONTRIBUTORS{" "}
+      </Text>
+      <br></br>
+      <Text
+        fontSize={{ base: "15px", md: "20px", lg: "20px" }}
+        fontFamily={"serif"}
+      >
+        Akshat Dharmeshkumar Modi, Austin (Tian) Yang, Akriti Sharma
+      </Text>
+      <br></br>
+      <Divider />
+      <br></br>
+      <Link
+        href="https://www.tmrjournals.com/public/articlePDF/20230111/6c18f051d1e13b640e5169111faeef1e.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Text
+          fontSize={{ base: "10px", md: "15px", lg: "15pxx" }}
+          fontFamily={"serif"}
+          fontWeight={"bold"}
+        >
+          Full Article Link <ExternalLinkIcon mx="2px" />
+        </Text>
+      </Link>
       <br></br>
       <br></br>
       <br></br>
       <br></br>
-
-      <Grid gap={6}>
-        {" "}
-        <Card>
-          <CardHeader>
-            <Heading size="lg" pt={10} fontFamily={"serif"}>
-              Coronavirus Detection using photonics (surface enhanced Raman
-              Scattering and FRET)
-            </Heading>
-          </CardHeader>
-
-          <CardBody>
-            <Stack divider={<StackDivider />} spacing="4">
-              <Box>
-                <Heading size="xs" textTransform="uppercase">
-                  Keywords
-                </Heading>
-                <Text pt="2" fontSize="sm">
-                  COVID-19; coronavirus; ACE2; virus detection; photonics;
-                  surface-enhancedRaman scattering; fluorescence resonance
-                  energy transfer
-                </Text>
-              </Box>
-              <Box>
-                <Heading size="xs" textTransform="uppercase">
-                  Contributors
-                </Heading>
-                <Text pt="2" fontSize="sm">
-                  Akshat Dharmeshkumar Modi, Austin (Tian) Yang, Akriti Sharma
-                </Text>
-              </Box>
-              <Box>
-                <Heading size="xs" textTransform="uppercase">
-                  <Link
-                    href="https://www.tmrjournals.com/public/articlePDF/20230111/6c18f051d1e13b640e5169111faeef1e.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Full Article Link <ExternalLinkIcon mx="2px" />
-                  </Link>
-                </Heading>
-                <Text pt="2" fontSize="sm"></Text>
-              </Box>
-            </Stack>
-          </CardBody>
-        </Card>
-        <Card>
-          <CardHeader>
-            <Heading size="lg" pt={10} fontFamily={"serif"}>
-              Advances in pharmacotherapy for arrythmia (In Progress)
-            </Heading>
-          </CardHeader>
-
-          <CardBody>
-            <Stack divider={<StackDivider />} spacing="4">
-              <Box>
-                <Heading size="xs" textTransform="uppercase">
-                  Keywords
-                </Heading>
-                <Text pt="2" fontSize="sm">
-                  atrial fibrillation; arrhythmia; antiarrhythmic;
-                  non-cardiovascular
-                </Text>
-              </Box>
-              <Box>
-                <Heading size="xs" textTransform="uppercase">
-                  Contributors
-                </Heading>
-                <Text pt="2" fontSize="sm">
-                  Akshat Dharmeshkumar Modi, Austin (Tian) Yang
-                </Text>
-              </Box>
-              <Box>
-                <Heading size="xs" textTransform="uppercase">
-                  Full Article Link (In Progress~~)
-                </Heading>
-                <br></br>
-                <Progresses />
-              </Box>
-            </Stack>
-          </CardBody>
-        </Card>
-      </Grid>
+      <Text
+        fontSize={{ base: "20px", md: "25px", lg: "30px" }}
+        fontFamily={"serif"}
+      >
+        Advances in pharmacotherapy for arrythmia (In Progress)
+      </Text>
+      <br></br>
+      <Divider />
+      <br></br>
+      <Text
+        fontSize={{ base: "10px", md: "15px", lg: "15px" }}
+        fontFamily={"serif"}
+        fontWeight={"bold"}
+      >
+        KEYWORDS{" "}
+      </Text>
+      <br></br>
+      <Text
+        fontSize={{ base: "15px", md: "20px", lg: "20px" }}
+        fontFamily={"serif"}
+      >
+        atrial fibrillation; arrhythmia; antiarrhythmic; non-cardiovascular
+      </Text>
+      <br></br>
+      <Divider />
+      <br></br>
+      <Text
+        fontSize={{ base: "10px", md: "15px", lg: "15px" }}
+        fontFamily={"serif"}
+        fontWeight={"bold"}
+      >
+        CONTRIBUTORS{" "}
+      </Text>
+      <br></br>
+      <Text
+        fontSize={{ base: "15px", md: "20px", lg: "20px" }}
+        fontFamily={"serif"}
+      >
+        Akshat Dharmeshkumar Modi, Austin (Tian) Yang
+      </Text>
+      <br></br>
+      <Divider />
+      <br></br>
+      <Text
+        fontSize={{ base: "10px", md: "15px", lg: "15pxx" }}
+        fontFamily={"serif"}
+        fontWeight={"bold"}
+      >
+        Full Article Link (In Progress~~)
+      </Text>
+      <br></br>
+      <Progresses />
       <br></br>
       <br></br>
       <br></br>
