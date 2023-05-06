@@ -6,8 +6,9 @@ export default function Home() {
   return (
     <div>
       <Bar />
-      <Resumebutton2 />
       <Scires />
+      <br></br>
+      <Resumebutton2 />
       <br></br>
       <br></br>
       <br></br>
