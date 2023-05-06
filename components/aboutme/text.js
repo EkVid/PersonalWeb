@@ -15,7 +15,6 @@ const Titles = () => {
         </Text>
       </Center>
       <br></br>
-      <Divider />
       <Center>
         <Text
           fontSize={{ base: "30px", md: "35px", lg: "40px" }}
