@@ -4,6 +4,7 @@ import Changes from "./change";
 import T from "./text";
 import Introduction from "./introduction";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
+import dynamic from "next/dynamic";
 
 const Spla = () => {
   return (
@@ -64,4 +65,4 @@ const Spla = () => {
   );
 };
 
-export default Spla;
+export default dynamic(() => Promise.resolve(Spla), { ssr: false });
