@@ -1,5 +1,6 @@
 import { Center, Divider, Text } from "@chakra-ui/react";
 import Codes from "./code";
+import dynamic from "next/dynamic";
 
 const T = () => {
   return (
@@ -8,7 +9,7 @@ const T = () => {
         <Text
           fontSize={{ base: "35px", md: "40px", lg: "56px" }}
           spacing={3}
-          pt={100}
+          pt={{ base: "150px", lg: "100px" }}
           fontWeight={"bold"}
           fontFamily={"serif"}
         >
@@ -25,4 +26,4 @@ const T = () => {
   );
 };
 
-export default T;
+export default dynamic(() => Promise.resolve(T), { ssr: false });
