@@ -1,11 +1,11 @@
-import Bar from "../components/bar";
+import Navbar from "../components/bar_2";
 import Movement from "../components/experience/movement";
 import All from "../components/experience/all";
 
 export default function Home() {
   return (
     <div>
-      <Bar />
+      <Navbar />
       <Movement />
       <All />
     </div>
