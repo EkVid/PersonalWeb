@@ -1,10 +1,10 @@
-import Bar from "../components/bar";
+//import Bar from "../components/bar";
 import Spla from "../components/homepage/moving";
 
 export default function FirstPost() {
   return (
     <div>
-      <Bar />
+//       <Bar />
       <Spla />
     </div>
   );
