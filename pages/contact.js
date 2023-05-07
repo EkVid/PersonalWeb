@@ -4,7 +4,7 @@ import Mov from "../components/contact/mov";
 export default function Home() {
   return (
     <div>
-      <NavBar />
+      <Navbar />
       <Mov />
     </div>
   );
