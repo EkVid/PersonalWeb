@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
+import color_change from "./color_change";
 
 import {
   chakra,
@@ -19,6 +20,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { IconButton } from "@chakra-ui/button";
 import { MoonIcon, SunIcon, ArrowLeftIcon } from "@chakra-ui/icons";
 import { useColorMode } from "@chakra-ui/react";
+import Color_change from "./color_change";
 
 const Navbar = () => {
   const bg = useColorModeValue("white", "gray.800");
@@ -54,7 +56,7 @@ const Navbar = () => {
               <Link href="/">
                 <chakra.h1 fontSize="xl" fontWeight="medium" ml="2">
                   <ArrowLeftIcon marginRight={3} marginBottom={1} />
-                  LHS
+                  HomePage
                 </chakra.h1>
               </Link>
             </Flex>
@@ -68,11 +70,8 @@ const Navbar = () => {
                 <Link href="/experiences">
                   <Button variant="ghost">Experiences</Button>
                 </Link>
-                <Link href="/projects">
-                  <Button variant="ghost">Projects</Button>
-                </Link>
-                <Link href="/posts">
-                  <Button variant="ghost">Posts</Button>
+                <Link href="/experiences">
+                  <Button variant="ghost">About Me</Button>
                 </Link>
                 <Link href="/resume">
                   <Button variant="ghost">
@@ -80,15 +79,17 @@ const Navbar = () => {
                     Resume
                   </Button>
                 </Link>
+                <Link href="/projects">
+                  <Button variant="ghost">Projects</Button>
+                </Link>
+                <Link href="/posts">
+                  <Button variant="ghost">Publications</Button>
+                </Link>
+                <Link href="/experiences">
+                  <Button variant="ghost">Contact</Button>
+                </Link>
               </HStack>
-              <IconButton
-                colorScheme="yellow"
-                mt={4}
-                aria-label="Toggle Mode"
-                onClick={toggleColorMode}
-              >
-                {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
-              </IconButton>
+              <Color_change />
               <Box display={{ base: "inline-flex", md: "none" }}>
                 <IconButton
                   display={{ base: "flex", md: "none" }}
