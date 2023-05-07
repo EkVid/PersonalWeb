@@ -200,7 +200,7 @@ const Navbar = () => {
                     </chakra.h1>{" "}
                   </Link>
 
-                  <Link href="/experiences">
+                  <Link href="/exp_S">
                     <chakra.h1 size="sm">Experiences</chakra.h1>
                   </Link>
 
