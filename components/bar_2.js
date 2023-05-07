@@ -2,7 +2,14 @@ import React from "react";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 import color_change from "./color_change";
-
+import {
+  AttachmentIcon,
+  ChatIcon,
+  CheckCircleIcon,
+  EditIcon,
+  InfoIcon,
+} from "@chakra-ui/icons";
+import { AiFillHome } from "react-icons/ai";
 import {
   chakra,
   Box,
@@ -53,11 +60,10 @@ const Navbar = () => {
               >
                 <VisuallyHidden>Angus</VisuallyHidden>
               </chakra.a>
-              <Link href="/">
-                <chakra.h1 fontSize="xl" fontWeight="medium" ml="2">
-                  <ArrowLeftIcon marginRight={3} marginBottom={1} />
+               <Link href="/">
+                <Button w="full" variant="ghost" leftIcon={<AiFillHome />}>
                   HomePage
-                </chakra.h1>
+                </Button>
               </Link>
             </Flex>
             <HStack display="flex" alignItems="center" spacing={1}>
