@@ -19,13 +19,12 @@ import Toastsss from "./toasts/toastm";
 import Toastssss from "./toasts/toastm2";
 import Toasti from "./toasts/toasti";
 import dynamic from "next/dynamic";
-import { chakra } from "@chakra-ui/react";
 
 const Avatars = () => {
   return (
     <Stack direction={{ base: "row", md: "column", lg: "row" }}>
       <br></br>
-      <chakra.h1 size="sm">
+      <Button variant="unstyled" size="sm" pr={{ lg: "150px" }}>
         {" "}
         <Menu>
           <MenuButton>
@@ -50,7 +49,7 @@ const Avatars = () => {
             </MenuList>
           </Portal>
         </Menu>
-      </chakra.h1>
+      </Button>
       <br></br>
       <br></br>
       <br></br>
