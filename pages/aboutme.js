@@ -4,7 +4,7 @@ import Sp from "../components/aboutme/changess";
 export default function Home() {
   return (
     <div>
-      <NavBar />
+      <Navbar />
       <Sp />
     </div>
   );
