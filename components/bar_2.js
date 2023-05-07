@@ -218,7 +218,7 @@ const Navbar = () => {
                     </Button>
                   </Link>
                   <Link href="/contact">
-                    <Button variant="ghost" leftIcon={<ChatIcon />} size="sm">
+                    <Button variant="ghost" size="sm">
                       Contact
                     </Button>
                   </Link>
