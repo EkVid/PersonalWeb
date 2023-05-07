@@ -51,6 +51,20 @@ const Avatars = () => {
       <br></br>
       <br></br>
       <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>   
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
 
       <Link
         href="https://www.linkedin.com/in/austin-yang-3544061ba/"
