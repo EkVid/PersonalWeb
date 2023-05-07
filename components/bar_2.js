@@ -100,7 +100,7 @@ const Navbar = () => {
                     </Portal>
                   </Button>
                 </Menu>
-                <Link href="/exp_S">
+                <Link href="/experiences">
                   <Button
                     w="full"
                     variant="ghost"
