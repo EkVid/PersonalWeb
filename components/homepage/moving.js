@@ -49,9 +49,9 @@ const Spla = () => {
             <Center>
               <Link href="/aboutme">
                 <Text
-                  fontSize={{ base: "20px", md: "25px", lg: "30px" }}
+                  fontSize={{ base: "18px", md: "25px", lg: "30px" }}
                   spacing={3}
-                  pt={5}
+                  pt={{ base: "100px", lg: "5px" }}
                   fontFamily={"serif"}
                 >
                   Read the about me page here <ExternalLinkIcon />
