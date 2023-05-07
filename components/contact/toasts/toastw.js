@@ -1,9 +1,10 @@
-import { Toast, useToast, toast, Button } from "@chakra-ui/react";
+import { Toast, useToast, chakra, Button } from "@chakra-ui/react";
+import dynamic from "next/dynamic";
 
 const Toastss = () => {
   const toast = useToast();
   return (
-    <Button
+    <chakra.h1
       variant={"unstyled"}
       onClick={() =>
         toast({
@@ -14,9 +15,9 @@ const Toastss = () => {
         })
       }
     >
-      4164768350
-    </Button>
+      (+1)4164768350
+    </chakra.h1>
   );
 };
 
-export default Toastss;
+export default dynamic(() => Promise.resolve(Toastss), { ssr: false });
