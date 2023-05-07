@@ -1,6 +1,7 @@
 import { Text } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import dynamic from "next/dynamic";
 
 const wordList = [
   "Biochemist in training",
@@ -13,7 +14,7 @@ const durationOfWord = 3;
 const effectTime = 1;
 const initDelay = 0.8;
 const deltaMilliseconds = 50;
-export default function Splash() {
+const Splash = () => {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -53,4 +54,5 @@ export default function Splash() {
       <Text p={5}>{wordList[index]}</Text>
     </motion.div>
   );
-}
+};
+export default dynamic(() => Promise.resolve(Splash), { ssr: false });
