@@ -4,7 +4,6 @@ import Spla from "../components/homepage/moving";
 export default function FirstPost() {
   return (
     <div>
-//       <Bar />
       <Spla />
     </div>
   );
