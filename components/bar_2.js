@@ -22,12 +22,16 @@ import {
   VStack,
   CloseButton,
   Link,
+  Menu,
+  MenuButton,
+  Portal,
+  MenuList,
+  MenuItem,
 } from "@chakra-ui/react";
 import { AiOutlineMenu } from "react-icons/ai";
 import { IconButton } from "@chakra-ui/button";
 import { MoonIcon, SunIcon, ArrowLeftIcon } from "@chakra-ui/icons";
 import { useColorMode } from "@chakra-ui/react";
-import Color_change from "./color_change";
 
 const Navbar = () => {
   const bg = useColorModeValue("white", "gray.800");
@@ -57,10 +61,8 @@ const Navbar = () => {
                 title="Home Page"
                 display="flex"
                 alignItems="center"
-              >
-                <VisuallyHidden>Angus</VisuallyHidden>
-              </chakra.a>
-               <Link href="/">
+              ></chakra.a>
+              <Link href="/">
                 <Button w="full" variant="ghost" leftIcon={<AiFillHome />}>
                   HomePage
                 </Button>
@@ -76,26 +78,40 @@ const Navbar = () => {
                 <Link href="/experiences">
                   <Button variant="ghost">Experiences</Button>
                 </Link>
-                <Link href="/experiences">
+                <Link href="/aboutme">
                   <Button variant="ghost">About Me</Button>
                 </Link>
-                <Link href="/resume">
-                  <Button variant="ghost">
-                    {/* <Button colorScheme="teal" size="sm"> */}
-                    Resume
+                <Menu>
+                  <Button
+                    variant="ghost"
+                    // colorScheme="brand"
+                    leftIcon={<AttachmentIcon />}
+                    size="sm"
+                  >
+                    <MenuButton> Resume </MenuButton>
+                    <Portal>
+                      <MenuList>
+                        <Link href="/resumetech">
+                          <MenuItem>Tech Related</MenuItem>
+                        </Link>
+                        <Link href="/resumesci">
+                          <MenuItem>Science Related</MenuItem>
+                        </Link>
+                      </MenuList>
+                    </Portal>
                   </Button>
-                </Link>
-                <Link href="/projects">
-                  <Button variant="ghost">Projects</Button>
-                </Link>
-                <Link href="/posts">
+                </Menu>
+
+                <Link href="/publications">
                   <Button variant="ghost">Publications</Button>
                 </Link>
                 <Link href="/experiences">
                   <Button variant="ghost">Contact</Button>
                 </Link>
+                <Button onClick={toggleColorMode} variant={"ghost"}>
+                  {colorMode === "Light Mode" ? "Dark Mode" : "Change Mode"}
+                </Button>
               </HStack>
-              <Color_change />
               <Box display={{ base: "inline-flex", md: "none" }}>
                 <IconButton
                   display={{ base: "flex", md: "none" }}
@@ -130,18 +146,34 @@ const Navbar = () => {
                   <Link href="/experiences">
                     <Button variant="ghost">Experiences</Button>
                   </Link>
-                  <Link href="/projects">
-                    <Button variant="ghost">Projects</Button>
-                  </Link>
-                  <Link href="/posts">
-                    <Button variant="ghost">Posts</Button>
-                  </Link>
-                  <Link href="/resume">
-                    <Button variant="ghost">
-                      {/* <Button colorScheme="teal" size="sm"> */}
-                      Resume
+                  <Menu>
+                    <Button
+                      variant="ghost"
+                      // colorScheme="brand"
+                      leftIcon={<AttachmentIcon />}
+                      size="sm"
+                    >
+                      <MenuButton> Resume </MenuButton>
+                      <Portal>
+                        <MenuList>
+                          <Link href="/resumetech">
+                            <MenuItem>Tech Related</MenuItem>
+                          </Link>
+                          <Link href="/resumesci">
+                            <MenuItem>Science Related</MenuItem>
+                          </Link>
+                        </MenuList>
+                      </Portal>
                     </Button>
+                  </Menu>
+
+                  <Link href="/publications">
+                    <Button variant="ghost">Publications</Button>
                   </Link>
+
+                  <Button onClick={toggleColorMode} variant={"ghost"}>
+                    {colorMode === "Light Mode" ? "Dark Mode" : "Change Mode"}
+                  </Button>
                 </VStack>
               </Box>
             </HStack>
