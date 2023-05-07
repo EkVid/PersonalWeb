@@ -260,28 +260,6 @@ const Bar = () => {
               </Link>
             </HStack>
            </HStack>
-//           <HStack
-//             spacing={300}
-//             display={mobileNav.isOpen ? "none" : "flex"}
-//             alignItems="center"
-//           >
-//             <chakra.a
-//               p={3}
-//               color="gray.800"
-//               _dark={{
-//                 color: "inherit",
-//               }}
-//               rounded="sm"
-//               _hover={{
-//                 color: "gray.800",
-//                 _dark: {
-//                   color: "gray.600",
-//                 },
-//               }}
-//             >
-//               <VisuallyHidden>Notifications</VisuallyHidden>
-//             </chakra.a>
-//           </HStack>
           <Color_change />
         </Flex>
       </chakra.header>
