@@ -62,9 +62,9 @@ const Navbar = () => {
                 alignItems="center"
               ></chakra.a>
               <Link href="/">
-            <chakra.h1 fontSize="xl" fontWeight="medium" ml="2">
-                  <ArrowLeftIcon marginRight={3} marginBottom={1} />
-                  LHS
+                <chakra.h1 fontSize="xl" fontWeight="medium" ml="2">
+                  <ArrowLeftIcon marginRight={2} marginBottom={1} />
+                  HomePage
                 </chakra.h1>
               </Link>
             </Flex>
@@ -76,49 +76,51 @@ const Navbar = () => {
                 display={{ base: "none", md: "inline-flex" }}
               >
                 <Link href="/aboutme">
-                  <Button variant="ghost" leftIcon={<InfoIcon />} size="md">
+                  <chakra.h1 size="sm">
+                    <InfoIcon marginRight={3} />
                     About Me
-                  </Button>
+                  </chakra.h1>
                 </Link>
                 <Menu>
-                  <Button
-                    variant="ghost"
-                    leftIcon={<AttachmentIcon />}
-                    size="md"
-                  >
+                  <chakra.h1 size="sm">
+                    <AttachmentIcon marginRight={2} ml={7} />
                     <MenuButton> Resume </MenuButton>
                     <Portal>
                       <MenuList>
                         <Link href="/resumetech">
-                          <MenuItem>Tech Related</MenuItem>
+                          <chakra.h1 size="sm" ml={5}>
+                            Tech Related
+                          </chakra.h1>
                         </Link>
                         <Link href="/resumesci">
-                          <MenuItem>Science Related</MenuItem>
+                          <chakra.h1 size="sm" ml={5}>
+                            Science Related
+                          </chakra.h1>{" "}
                         </Link>
                       </MenuList>
                     </Portal>
-                  </Button>
+                  </chakra.h1>
                 </Menu>
                 <Link href="/experiences">
-                  <Button
-                    variant="ghost"
-                    leftIcon={<CheckCircleIcon />}
-                    size="md"
-                  >
+                  <chakra.h1 size="sm">
+                    <CheckCircleIcon marginRight={3} ml={7} />
                     Experiences
-                  </Button>
+                  </chakra.h1>
                 </Link>
 
                 <Link href="/publications">
-                  <Button variant="ghost" leftIcon={<EditIcon />} size="md">
+                  <chakra.h1 size="sm">
+                    <EditIcon marginRight={3} ml={7} />
                     Publications
-                  </Button>
+                  </chakra.h1>
                 </Link>
                 <Link href="/contact">
-                  <Button variant="ghost" leftIcon={<ChatIcon />} size="md">
+                  <chakra.h1 size="sm">
+                    <ChatIcon marginRight={3} ml={7} />
                     Contact
-                  </Button>
+                  </chakra.h1>
                 </Link>
+
                 <Link
                   href="https://github.com/EkVid"
                   target="_blank"
@@ -139,10 +141,10 @@ const Navbar = () => {
                     <AiFillLinkedin size={25} />
                   </Button>
                 </Link>
-                <Button onClick={toggleColorMode} variant={"ghost"} size="md">
-                  {colorMode === "Light Mode" ? "Dark Mode" : "Change Mode"}
-                </Button>
               </HStack>
+              <Button onClick={toggleColorMode} variant={"ghost"}>
+                {colorMode === "Light Mode" ? "Dark Mode" : "Mode"}
+              </Button>
               <Box display={{ base: "inline-flex", md: "none" }}>
                 <IconButton
                   display={{ base: "flex", md: "none" }}
@@ -175,50 +177,38 @@ const Navbar = () => {
                   />
 
                   <Link href="/aboutme">
-                    <Button variant="ghost" leftIcon={<InfoIcon />} size="sm" sx={{ outline: "none" }}>
-                      About Me
-                    </Button>
-                  </Link>
-                  <Link href="/exp_S">
-                    <Button
-                      variant="ghost"
-                      leftIcon={<CheckCircleIcon />}
-                      size="sm"
-                    >
-                      Experiences
-                    </Button>
+                    <chakra.h1 size="sm"> About Me</chakra.h1>
                   </Link>
                   <Menu>
-                    <Button
-                      variant="ghost"
-                      // colorScheme="brand"
-                      leftIcon={<AttachmentIcon />}
-                      size="sm"
-                    >
+                    <chakra.h1 size="sm">
                       <MenuButton> Resume </MenuButton>
                       <Portal>
                         <MenuList>
                           <Link href="/resumetech">
-                            <MenuItem>Tech Related</MenuItem>
+                            <chakra.h1 size="sm" ml={5}>
+                              Tech Related
+                            </chakra.h1>
                           </Link>
                           <Link href="/resumesci">
-                            <MenuItem>Science Related</MenuItem>
+                            <chakra.h1 size="sm" ml={5}>
+                              Science Related
+                            </chakra.h1>{" "}
                           </Link>
                         </MenuList>
                       </Portal>
-                    </Button>
+                    </chakra.h1>
                   </Menu>
+                  <Link href="/experiences">
+                    <chakra.h1 size="sm">Experiences</chakra.h1>
+                  </Link>
 
                   <Link href="/publications">
-                    <Button variant="ghost" size="sm">
-                      Publications
-                    </Button>
+                    <chakra.h1 size="sm">Publications</chakra.h1>
                   </Link>
                   <Link href="/contact">
-                    <Button variant="ghost" leftIcon={<ChatIcon />} size="sm">
-                      Contact
-                    </Button>
+                    <chakra.h1 size="sm">Contact</chakra.h1>
                   </Link>
+
                   <Link
                     href="https://github.com/EkVid"
                     target="_blank"
@@ -239,10 +229,6 @@ const Navbar = () => {
                       <AiFillLinkedin size={25} />
                     </Button>
                   </Link>
-
-                  <Button onClick={toggleColorMode} variant={"ghost"}>
-                    {colorMode === "Light Mode" ? "Dark Mode" : "Change Mode"}
-                  </Button>
                 </VStack>
               </Box>
             </HStack>
