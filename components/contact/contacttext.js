@@ -1,5 +1,6 @@
 import { Center, Divider, Text } from "@chakra-ui/react";
 import Avatars from "./avatar";
+import dynamic from "next/dynamic";
 
 const Contacttext = () => {
   return (
@@ -10,7 +11,7 @@ const Contacttext = () => {
           spacing={3}
           fontFamily={"serif"}
           fontWeight={"bold"}
-          pt={{ base: "800px", lg: "20px" }}
+          pt={{ base: "200px", md: "900px", lg: "100px" }}
         >
           Get In Touch
         </Text>
@@ -34,7 +35,6 @@ const Contacttext = () => {
       <br></br>
       <br></br>
       <br></br>
-      <br></br>
       <Center>
         <Avatars />
       </Center>
@@ -42,4 +42,4 @@ const Contacttext = () => {
   );
 };
 
-export default Contacttext;
+export default dynamic(() => Promise.resolve(Contacttext), { ssr: false });
