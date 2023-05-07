@@ -34,7 +34,7 @@ const Titles = () => {
           <Text
             fontSize={{ base: "17px", md: "20px", lg: "23px" }}
             spacing={3}
-            pt={10
+            pt={10}
             fontFamily={"serif"}
           >
             {" "}
