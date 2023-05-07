@@ -9,7 +9,7 @@ const Exp_S = () => {
         <Text
           fontSize={"35px"}
           spacing={3}
-          pt={{ base: 2350, md: 600, lg: 700 }}
+          pt={{ base: 2750, md: 600, lg: 700 }}
           fontWeight={"bold"}
           fontFamily={"serif"}
         >
