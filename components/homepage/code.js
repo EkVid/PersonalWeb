@@ -4,7 +4,7 @@ import { Stack } from "@chakra-ui/react";
 const Codes = () => {
   return (
     <div>
-      <Stack direction="row">
+      <Stack direction={{ base: "column", md: "column", lg: "row" }}>
         <Code
           colorScheme="red"
           children="console.log('welcome');"
