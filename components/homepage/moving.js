@@ -51,7 +51,7 @@ const Spla = () => {
                 <Text
                   fontSize={{ base: "18px", md: "25px", lg: "30px" }}
                   spacing={3}
-                  pt={{ base: "100px", lg: "5px" }}
+                  pt={{ base: "200px", lg: "5px" }}
                   fontFamily={"serif"}
                 >
                   Read the about me page here <ExternalLinkIcon />
