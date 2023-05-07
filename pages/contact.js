@@ -1,10 +1,10 @@
-import Bar from "../components/bar";
+import Navbar from "../components/bar_2";
 import Mov from "../components/contact/mov";
 
 export default function Home() {
   return (
     <div>
-      <Bar />
+      <NavBar />
       <Mov />
     </div>
   );
