@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { anticipate, easeIn, easeInOut, motion } from "framer-motion";
 import dynamic from "next/dynamic";
 import color_change from "./color_change";
 import {
@@ -9,7 +9,7 @@ import {
   EditIcon,
   InfoIcon,
 } from "@chakra-ui/icons";
-import { AiFillHome } from "react-icons/ai";
+import { AiFillHome, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import {
   chakra,
   Box,
@@ -30,7 +30,6 @@ import {
 } from "@chakra-ui/react";
 import { AiOutlineMenu } from "react-icons/ai";
 import { IconButton } from "@chakra-ui/button";
-import { MoonIcon, SunIcon, ArrowLeftIcon } from "@chakra-ui/icons";
 import { useColorMode } from "@chakra-ui/react";
 
 const Navbar = () => {
@@ -40,7 +39,6 @@ const Navbar = () => {
 
   return (
     <React.Fragment>
-      {/* <Box {...props}> */}
       <chakra.header
         bg={bg}
         w="full"
@@ -63,7 +61,12 @@ const Navbar = () => {
                 alignItems="center"
               ></chakra.a>
               <Link href="/">
-                <Button w="full" variant="ghost" leftIcon={<AiFillHome />}>
+                <Button
+                  w="full"
+                  variant="ghost"
+                  leftIcon={<AiFillHome />}
+                  size="md"
+                >
                   HomePage
                 </Button>
               </Link>
@@ -75,18 +78,16 @@ const Navbar = () => {
                 color="brand.500"
                 display={{ base: "none", md: "inline-flex" }}
               >
-                <Link href="/experiences">
-                  <Button variant="ghost">Experiences</Button>
-                </Link>
                 <Link href="/aboutme">
-                  <Button variant="ghost">About Me</Button>
+                  <Button variant="ghost" leftIcon={<InfoIcon />} size="md">
+                    About Me
+                  </Button>
                 </Link>
                 <Menu>
                   <Button
                     variant="ghost"
-                    // colorScheme="brand"
                     leftIcon={<AttachmentIcon />}
-                    size="sm"
+                    size="md"
                   >
                     <MenuButton> Resume </MenuButton>
                     <Portal>
@@ -101,14 +102,47 @@ const Navbar = () => {
                     </Portal>
                   </Button>
                 </Menu>
+                <Link href="/experiences">
+                  <Button
+                    variant="ghost"
+                    leftIcon={<CheckCircleIcon />}
+                    size="md"
+                  >
+                    Experiences
+                  </Button>
+                </Link>
 
                 <Link href="/publications">
-                  <Button variant="ghost">Publications</Button>
+                  <Button variant="ghost" leftIcon={<EditIcon />} size="md">
+                    Publications
+                  </Button>
                 </Link>
-                <Link href="/experiences">
-                  <Button variant="ghost">Contact</Button>
+                <Link href="/contact">
+                  <Button variant="ghost" leftIcon={<ChatIcon />} size="md">
+                    Contact
+                  </Button>
                 </Link>
-                <Button onClick={toggleColorMode} variant={"ghost"}>
+                <Link
+                  href="https://github.com/EkVid"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="ghost" size="sm">
+                    {" "}
+                    <AiFillGithub size={25} />
+                  </Button>
+                </Link>
+                <Link
+                  href="https://www.linkedin.com/in/austin-yang-3544061ba/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="ghost" size="sm">
+                    {" "}
+                    <AiFillLinkedin size={25} />
+                  </Button>
+                </Link>
+                <Button onClick={toggleColorMode} variant={"ghost"} size="md">
                   {colorMode === "Light Mode" ? "Dark Mode" : "Change Mode"}
                 </Button>
               </HStack>
@@ -143,8 +177,19 @@ const Navbar = () => {
                     onClick={mobileNav.onClose}
                   />
 
-                  <Link href="/experiences">
-                    <Button variant="ghost">Experiences</Button>
+                  <Link href="/aboutme">
+                    <Button variant="ghost" leftIcon={<InfoIcon />} size="sm">
+                      About Me
+                    </Button>
+                  </Link>
+                  <Link href="/exp_S">
+                    <Button
+                      variant="ghost"
+                      leftIcon={<CheckCircleIcon />}
+                      size="sm"
+                    >
+                      Experiences
+                    </Button>
                   </Link>
                   <Menu>
                     <Button
@@ -168,7 +213,34 @@ const Navbar = () => {
                   </Menu>
 
                   <Link href="/publications">
-                    <Button variant="ghost">Publications</Button>
+                    <Button variant="ghost" leftIcon={<EditIcon />} size="sm">
+                      Publications
+                    </Button>
+                  </Link>
+                  <Link href="/contact">
+                    <Button variant="ghost" leftIcon={<ChatIcon />} size="sm">
+                      Contact
+                    </Button>
+                  </Link>
+                  <Link
+                    href="https://github.com/EkVid"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button variant="ghost" size="sm">
+                      {" "}
+                      <AiFillGithub size={25} />
+                    </Button>
+                  </Link>
+                  <Link
+                    href="https://www.linkedin.com/in/austin-yang-3544061ba/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button variant="ghost" size="sm">
+                      {" "}
+                      <AiFillLinkedin size={25} />
+                    </Button>
                   </Link>
 
                   <Button onClick={toggleColorMode} variant={"ghost"}>
