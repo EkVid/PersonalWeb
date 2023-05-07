@@ -259,7 +259,7 @@ const Bar = () => {
                 </Button>
               </Link>
             </HStack>
-//           </HStack>
+           </HStack>
 //           <HStack
 //             spacing={300}
 //             display={mobileNav.isOpen ? "none" : "flex"}
