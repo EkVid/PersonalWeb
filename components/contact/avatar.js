@@ -8,6 +8,7 @@ import {
   Button,
   Toast,
 } from "@chakra-ui/react";
+import { Icon } from "@chakra-ui/react";
 import { AiFillInstagram } from "react-icons/ai";
 import { AiFillPhone, AiFillMail, AiFillLinkedin } from "react-icons/ai";
 import { Menu, MenuButton, Portal, MenuItem, MenuList } from "@chakra-ui/react";
@@ -21,14 +22,17 @@ import dynamic from "next/dynamic";
 
 const Avatars = () => {
   return (
-    <Stack direction={{ base: "column", lg: "row" }}>
+    <Stack direction={{ base: "row", md: "column", lg: "row" }}>
       <br></br>
       <Button variant="unstyled" size="sm" pr={{ lg: "150px" }}>
         {" "}
         <Menu>
           <MenuButton>
             {" "}
-            <AiFillInstagram size={30} />
+            <Icon
+              as={AiFillInstagram}
+              boxSize={{ base: 30, md: 40, lg: 100 }}
+            />
           </MenuButton>
           <Portal>
             <></>
@@ -65,7 +69,7 @@ const Avatars = () => {
           pt={{ lg: "0px" }}
         >
           {" "}
-          <AiFillLinkedin size={30} />
+          <Icon as={AiFillLinkedin} boxSize={{ base: 30, md: 40, lg: 100 }} />
         </Button>
       </Link>
       <br></br>
@@ -85,7 +89,7 @@ const Avatars = () => {
         <Menu>
           <MenuButton>
             {" "}
-            <AiFillPhone size={30} />
+            <Icon as={AiFillPhone} boxSize={{ base: 30, md: 40, lg: 100 }} />
           </MenuButton>
           <Portal>
             <MenuList>
@@ -123,8 +127,8 @@ const Avatars = () => {
               boxSize="300px"
               src="/images/discord.png"
               alt="Discord Icon"
-              width={30}
-              height={30}
+              width={{ base: 30, md: 40, lg: 100 }}
+              height={{ base: 30, md: 40, lg: 100 }}
             />
           </MenuButton>
           <Portal>
@@ -159,7 +163,7 @@ const Avatars = () => {
         <Menu>
           <MenuButton>
             {" "}
-            <AiFillMail size={30} />
+            <Icon as={AiFillMail} boxSize={{ base: 30, md: 40, lg: 100 }} />
           </MenuButton>
           <Portal>
             <MenuList>
