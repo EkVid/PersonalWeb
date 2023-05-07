@@ -62,10 +62,9 @@ const Navbar = () => {
                 alignItems="center"
               ></chakra.a>
               <Link href="/">
-                <chakra.h1 fontSize="xl" fontWeight="medium" ml="2">
-                  <ArrowLeftIcon marginRight={2} marginBottom={1} />
+                <Button w="full" variant="ghost" leftIcon={<AiFillHome />}>
                   HomePage
-                </chakra.h1>
+                </Button>
               </Link>
             </Flex>
             <HStack display="flex" alignItems="center" spacing={1}>
@@ -76,55 +75,65 @@ const Navbar = () => {
                 display={{ base: "none", md: "inline-flex" }}
               >
                 <Link href="/aboutme">
-                  <chakra.h1 size="sm">
+                  <Button variant="ghost" size="sm">
                     <InfoIcon marginRight={3} />
                     About Me
-                  </chakra.h1>
+                  </Button>
                 </Link>
                 <Menu>
-                  <chakra.h1 size="sm">
-                    <AttachmentIcon marginRight={2} ml={7} />
+                  <Button
+                    variant="ghost"
+                    // colorScheme="brand"
+                    leftIcon={<AttachmentIcon />}
+                    size="sm"
+                  >
                     <MenuButton> Resume </MenuButton>
                     <Portal>
                       <MenuList>
                         <Link href="/resumetech">
-                          <chakra.h1 size="sm" ml={5}>
-                            Tech Related
-                          </chakra.h1>
+                          <MenuItem>Tech Related</MenuItem>
                         </Link>
                         <Link href="/resumesci">
-                          <chakra.h1 size="sm" ml={5}>
-                            Science Related
-                          </chakra.h1>{" "}
+                          <MenuItem>Science Related</MenuItem>
                         </Link>
                       </MenuList>
                     </Portal>
-                  </chakra.h1>
+                  </Button>
                 </Menu>
-                <Link href="/experiences">
-                  <chakra.h1 size="sm">
-                    <CheckCircleIcon marginRight={3} ml={7} />
+                <Link href="/exp_S">
+                  <Button
+                    w="full"
+                    variant="ghost"
+                    leftIcon={<CheckCircleIcon />}
+                    size="sm"
+                  >
                     Experiences
-                  </chakra.h1>
+                  </Button>
                 </Link>
-
                 <Link href="/publications">
-                  <chakra.h1 size="sm">
-                    <EditIcon marginRight={3} ml={7} />
+                  <Button
+                    w="full"
+                    variant="ghost"
+                    leftIcon={<EditIcon />}
+                    size="sm"
+                  >
                     Publications
-                  </chakra.h1>
+                  </Button>
                 </Link>
                 <Link href="/contact">
-                  <chakra.h1 size="sm">
-                    <ChatIcon marginRight={3} ml={7} />
+                  <Button
+                    w="full"
+                    variant="ghost"
+                    leftIcon={<ChatIcon />}
+                    size="sm"
+                  >
                     Contact
-                  </chakra.h1>
+                  </Button>
                 </Link>
-
                 <Link
                   href="https://github.com/EkVid"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  leftIcon={<CheckCircleIcon />}
+                  size="sm"
                 >
                   <Button variant="ghost" size="sm">
                     {" "}
@@ -179,25 +188,18 @@ const Navbar = () => {
                   <Link href="/aboutme">
                     <chakra.h1 size="sm"> About Me</chakra.h1>
                   </Link>
-                  <Menu>
-                    <chakra.h1 size="sm">
-                      <MenuButton> Resume </MenuButton>
-                      <Portal>
-                        <MenuList>
-                          <Link href="/resumetech">
-                            <chakra.h1 size="sm" ml={5}>
-                              Tech Related
-                            </chakra.h1>
-                          </Link>
-                          <Link href="/resumesci">
-                            <chakra.h1 size="sm" ml={5}>
-                              Science Related
-                            </chakra.h1>{" "}
-                          </Link>
-                        </MenuList>
-                      </Portal>
+
+                  <Link href="/resumetech">
+                    <chakra.h1 size="sm" ml={5}>
+                      Tech Resume
                     </chakra.h1>
-                  </Menu>
+                  </Link>
+                  <Link href="/resumesci">
+                    <chakra.h1 size="sm" ml={5}>
+                      Science Resume
+                    </chakra.h1>{" "}
+                  </Link>
+
                   <Link href="/experiences">
                     <chakra.h1 size="sm">Experiences</chakra.h1>
                   </Link>
