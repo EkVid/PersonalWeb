@@ -100,26 +100,26 @@ const Bar = () => {
                     About Me
                   </Button>
                 </Link>
-                <Menu>
-                  <Button
-                    variant="ghost"
-                    // colorScheme="brand"
-                    leftIcon={<AttachmentIcon />}
-                    size="sm"
-                  >
-                    <MenuButton> Resume </MenuButton>
-                    <Portal>
-                      <MenuList>
-                        <Link href="/resumetech">
-                          <MenuItem>Tech Related</MenuItem>
-                        </Link>
-                        <Link href="/resumesci">
-                          <MenuItem>Science Related</MenuItem>
-                        </Link>
-                      </MenuList>
-                    </Portal>
-                  </Button>
-                </Menu>
+//                 <Menu>
+//                   <Button
+//                     variant="ghost"
+//                     // colorScheme="brand"
+//                     leftIcon={<AttachmentIcon />}
+//                     size="sm"
+//                   >
+//                     <MenuButton> Resume </MenuButton>
+//                     <Portal>
+//                       <MenuList>
+//                         <Link href="/resumetech">
+//                           <MenuItem>Tech Related</MenuItem>
+//                         </Link>
+//                         <Link href="/resumesci">
+//                           <MenuItem>Science Related</MenuItem>
+//                         </Link>
+//                       </MenuList>
+//                     </Portal>
+//                   </Button>
+//                 </Menu>
                 <Link href="/exp_S">
                   <Button w="full" variant="ghost" leftIcon={<AiFillHome />}>
                     Experiences
