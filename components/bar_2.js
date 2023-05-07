@@ -178,7 +178,7 @@ const Navbar = () => {
                   />
 
                   <Link href="/aboutme">
-                    <Button variant="ghost" leftIcon={<InfoIcon />} size="sm">
+                    <Button variant="ghost" leftIcon={<InfoIcon />} size="sm" sx={{ outline: "none" }}>
                       About Me
                     </Button>
                   </Link>
