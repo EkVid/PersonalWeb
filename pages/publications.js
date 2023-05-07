@@ -1,10 +1,10 @@
-import Bar from "../components/bar";
+import Navbar from "../components/bar_2";
 import Anim from "../components/publication/anim";
 
 export default function Home() {
   return (
     <div>
-      <Bar />
+      <Navbar />
       <Anim />
     </div>
   );
