@@ -8,6 +8,7 @@ import {
   CheckCircleIcon,
   EditIcon,
   InfoIcon,
+  ArrowLeftIcon,
 } from "@chakra-ui/icons";
 import { AiFillHome, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import {
@@ -61,14 +62,10 @@ const Navbar = () => {
                 alignItems="center"
               ></chakra.a>
               <Link href="/">
-                <Button
-                  w="full"
-                  variant="ghost"
-                  leftIcon={<AiFillHome />}
-                  size="md"
-                >
-                  HomePage
-                </Button>
+            <chakra.h1 fontSize="xl" fontWeight="medium" ml="2">
+                  <ArrowLeftIcon marginRight={3} marginBottom={1} />
+                  LHS
+                </chakra.h1>
               </Link>
             </Flex>
             <HStack display="flex" alignItems="center" spacing={1}>
