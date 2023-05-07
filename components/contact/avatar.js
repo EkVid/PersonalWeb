@@ -27,7 +27,7 @@ const Avatars = () => {
         <Menu>
           <MenuButton>
             {" "}
-            <AiFillInstagram size={100} />
+            <AiFillInstagram size={50} />
           </MenuButton>
           <Portal>
             <></>
@@ -78,7 +78,7 @@ const Avatars = () => {
           pt={{ lg: "0px" }}
         >
           {" "}
-          <AiFillLinkedin size={100} />
+          <AiFillLinkedin size={50} />
         </Button>
       </Link>
       <br></br>
