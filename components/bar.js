@@ -2,6 +2,7 @@ import { useColorModeValue } from "@chakra-ui/react";
 import Link from "next/link";
 import { useDisclosure } from "@chakra-ui/react";
 import React from "react";
+import dynamic from "next/dynamic";
 import Color_change from "./color_change";
 import { chakra } from "@chakra-ui/react";
 import {
@@ -288,4 +289,5 @@ const Bar = () => {
   );
 };
 
-export default Bar;
+export default dynamic(() => Promise.resolve(Bar), { ssr: false });
+
