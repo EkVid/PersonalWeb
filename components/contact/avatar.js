@@ -22,12 +22,13 @@ import dynamic from "next/dynamic";
 const Avatars = () => {
   return (
     <Stack direction={{ base: "column", lg: "row" }}>
+      <br></br>
       <Button variant="unstyled" size="sm" pr={{ lg: "150px" }}>
         {" "}
         <Menu>
           <MenuButton>
             {" "}
-            <AiFillInstagram size={50} />
+            <AiFillInstagram size={30} />
           </MenuButton>
           <Portal>
             <></>
@@ -51,20 +52,6 @@ const Avatars = () => {
       <br></br>
       <br></br>
       <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>   
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
 
       <Link
         href="https://www.linkedin.com/in/austin-yang-3544061ba/"
@@ -78,7 +65,7 @@ const Avatars = () => {
           pt={{ lg: "0px" }}
         >
           {" "}
-          <AiFillLinkedin size={50} />
+          <AiFillLinkedin size={30} />
         </Button>
       </Link>
       <br></br>
@@ -98,7 +85,7 @@ const Avatars = () => {
         <Menu>
           <MenuButton>
             {" "}
-            <AiFillPhone size={100} />
+            <AiFillPhone size={30} />
           </MenuButton>
           <Portal>
             <MenuList>
@@ -136,8 +123,8 @@ const Avatars = () => {
               boxSize="300px"
               src="/images/discord.png"
               alt="Discord Icon"
-              width={100}
-              height={100}
+              width={30}
+              height={30}
             />
           </MenuButton>
           <Portal>
@@ -172,7 +159,7 @@ const Avatars = () => {
         <Menu>
           <MenuButton>
             {" "}
-            <AiFillMail size={100} />
+            <AiFillMail size={30} />
           </MenuButton>
           <Portal>
             <MenuList>
