@@ -213,12 +213,12 @@ const Navbar = () => {
                   </Menu>
 
                   <Link href="/publications">
-                    <Button variant="ghost" leftIcon={<EditIcon />} size="sm">
+                    <Button variant="ghost" size="sm">
                       Publications
                     </Button>
                   </Link>
                   <Link href="/contact">
-                    <Button variant="ghost" size="sm">
+                    <Button variant="ghost" leftIcon={<ChatIcon />} size="sm">
                       Contact
                     </Button>
                   </Link>
