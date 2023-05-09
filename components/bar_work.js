@@ -160,7 +160,7 @@ const Bar_Work = () => {
               </Button>
 
               <Link href="/contact">
-                <Button size="sm" variant="ghost">
+                <Button w="full" variant="ghost">
                   Next Pg
                 </Button>
               </Link>
