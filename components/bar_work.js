@@ -1,7 +1,6 @@
 import React from "react";
 import { anticipate, easeIn, easeInOut, motion } from "framer-motion";
 import dynamic from "next/dynamic";
-import color_change from "./color_change";
 import {
   AttachmentIcon,
   ChatIcon,
