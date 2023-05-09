@@ -22,7 +22,7 @@ import dynamic from "next/dynamic";
 
 const Avatars = () => {
   return (
-    <Stack direction={{ base: "row", md: "column", lg: "row" }}>
+    <Stack direction={{ base: "row", md: "row", lg: "row" }}>
       <br></br>
       <Button variant="unstyled" size="sm" pr={{ lg: "150px" }}>
         {" "}
