@@ -6,7 +6,7 @@ const StyledDiv = chakra(motion.div, {
     return shouldForwardProp(prop) || prop === "transition";
   },
 }); 
-
+ 
 const Section = ({ children, delay = 0 }) => (
   <StyledDiv
     initial={{ y: 10, opacity: 0 }}
