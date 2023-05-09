@@ -109,7 +109,9 @@ const ProjectPreview2 = ({ isHero }) => {
           bg: "gray.800",
         }}
       >
-        <Link href="https://www.utsc.utoronto.ca/programs/csu/">
+        <Link href="https://www.utsc.utoronto.ca/programs/csu/"
+          target="_blank"
+          rel="noopener noreferrer">
           <Image
             roundedTop="lg"
             w="full"
