@@ -20,7 +20,11 @@ const Works = () => (
       </Heading>
 
       <Section>
-        <Link href="https://www.youtube.com/watch?v=Y7fxK1sJOFU">
+        <Link
+          href="https://www.youtube.com/watch?v=Y7fxK1sJOFU"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Image src="images/game.png" rounded={"lg"} />
           <br></br>
           <WorkGridItem
@@ -35,7 +39,11 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <Link href="https://www.utsc.utoronto.ca/programs/csu/">
+          <Link
+            href="https://www.utsc.utoronto.ca/programs/csu/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image src="images/csu.png" rounded={"lg"} /> <br></br>
             <WorkGridItem
               title="Wedmaster"
@@ -48,7 +56,11 @@ const Works = () => (
           </Link>
         </Section>
         <Section>
-          <Link href="https://csb.utoronto.ca/faculty/guillaume-filion/">
+          <Link
+            href="https://csb.utoronto.ca/faculty/guillaume-filion/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image src="/images/bioinfo.png" rounded={"lg"} /> <br></br>
             <WorkGridItem
               title="Bioinformatician "
@@ -72,7 +84,11 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <Link href="https://www.utsc.utoronto.ca/labs/andrade/">
+          <Link
+            href="https://www.utsc.utoronto.ca/labs/andrade/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image src="images/lab.png" rounded={"lg"} />
             <br></br>
             <WorkGridItem
