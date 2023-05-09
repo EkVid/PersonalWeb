@@ -31,7 +31,7 @@ const Avatars = () => {
             {" "}
             <Icon
               as={AiFillInstagram}
-              boxSize={{ base: 30, md: 40, lg: 100 }}
+              boxSize={{ base: 30, md: 60, lg: 100 }}
             />
           </MenuButton>
           <Portal>
