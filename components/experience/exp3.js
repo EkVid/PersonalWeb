@@ -21,7 +21,9 @@ const ProjectPreview3 = ({ isHero }) => {
           bg: "gray.800",
         }}
       >
-        <Link href="https://csb.utoronto.ca/faculty/guillaume-filion/">
+        <Link href="https://csb.utoronto.ca/faculty/guillaume-filion/"
+          target="_blank"
+          rel="noopener noreferrer">
           <Image
             roundedTop="lg"
             w="full"
@@ -111,7 +113,9 @@ const ProjectPreview3 = ({ isHero }) => {
           bg: "gray.800",
         }}
       >
-        <Link href="https://www.utsc.utoronto.ca/labs/andrade/">
+        <Link href="https://www.utsc.utoronto.ca/labs/andrade/"
+          target="_blank"
+          rel="noopener noreferrer">
           <Image
             roundedTop="lg"
             w="full"
