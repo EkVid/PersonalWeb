@@ -130,6 +130,11 @@ const Navbar = () => {
                     Contact
                   </Button>
                 </Link>
+                <Link href="/work">
+                  <Button w="full" variant="ghost" size="sm">
+                    Works
+                  </Button>
+                </Link>
                 <Link
                   href="https://github.com/EkVid"
                   leftIcon={<CheckCircleIcon />}
@@ -200,7 +205,7 @@ const Navbar = () => {
                     </chakra.h1>{" "}
                   </Link>
 
-                  <Link href="/exp_S">
+                  <Link href="/work">
                     <chakra.h1 size="sm">Experiences</chakra.h1>
                   </Link>
 
