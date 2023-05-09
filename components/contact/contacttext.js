@@ -11,7 +11,7 @@ const Contacttext = () => {
           spacing={3}
           fontFamily={"serif"}
           fontWeight={"bold"}
-          pt={{ base: "200px", md: "900px", lg: "100px" }}
+          pt={{ base: "200px", md: "200px", lg: "100px" }}
         >
           Get In Touch
         </Text>
