@@ -135,11 +135,7 @@ const Navbar = () => {
                     Contact
                   </Button>
                 </Link>
-                <Link href="/work">
-                  <Button w="full" variant="ghost" size="sm">
-                    Works
-                  </Button>
-                </Link>
+    
                 <Link
                   href="https://github.com/EkVid"
                   leftIcon={<CheckCircleIcon />}
