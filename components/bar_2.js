@@ -28,6 +28,7 @@ import {
   Portal,
   MenuList,
   MenuItem,
+  useBreakpointValue,
 } from "@chakra-ui/react";
 import { AiOutlineMenu } from "react-icons/ai";
 import { IconButton } from "@chakra-ui/button";
@@ -37,6 +38,10 @@ const Navbar = () => {
   const bg = useColorModeValue("white", "gray.800");
   const mobileNav = useDisclosure();
   const { colorMode, toggleColorMode } = useColorMode();
+  const linkUrl = useBreakpointValue({
+    md: "/work",
+    lg: "/experiences",
+  });
 
   return (
     <React.Fragment>
@@ -100,7 +105,7 @@ const Navbar = () => {
                     </Portal>
                   </Button>
                 </Menu>
-                <Link href="/experiences">
+                <Link href={linkUrl}>
                   <Button
                     w="full"
                     variant="ghost"
