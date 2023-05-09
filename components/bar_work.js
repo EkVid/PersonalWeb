@@ -1,6 +1,7 @@
 import React from "react";
 import { anticipate, easeIn, easeInOut, motion } from "framer-motion";
 import dynamic from "next/dynamic";
+import color_change from "./color_change";
 import {
   AttachmentIcon,
   ChatIcon,
@@ -159,7 +160,7 @@ const Bar_Work = () => {
                 {colorMode === "Light Mode" ? "Dark Mode" : "Mode"}
               </Button>
 
-              <Link href="/contact">
+              <Link href="/publications">
                 <Button w="full" variant="ghost">
                   Next Pg
                 </Button>
