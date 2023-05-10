@@ -46,18 +46,18 @@ const Spla = () => {
             whileInView={{ opacity: 1, translateY: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <Center>
-              <Link href="/aboutme">
-                <Text
-                  fontSize={{ base: "18px", md: "25px", lg: "30px" }}
-                  spacing={3}
-                  pt={{ base: "200px", lg: "5px" }}
-                  fontFamily={"serif"}
-                >
-                  Read the about me page here <ExternalLinkIcon />
-                </Text>
-              </Link>
-            </Center>
+//             <Center>
+//               <Link href="/aboutme">
+//                 <Text
+//                   fontSize={{ base: "18px", md: "25px", lg: "30px" }}
+//                   spacing={3}
+//                   pt={{ base: "200px", lg: "5px" }}
+//                   fontFamily={"serif"}
+//                 >
+//                   Read the about me page here <ExternalLinkIcon />
+//                 </Text>
+//               </Link>
+//             </Center>
           </motion.div>
         </Box>
       </Center>
