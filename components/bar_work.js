@@ -32,11 +32,16 @@ import {
 import { AiOutlineMenu } from "react-icons/ai";
 import { IconButton } from "@chakra-ui/button";
 import { useColorMode } from "@chakra-ui/react";
+import { useBreakpointValue } from "@chakra-ui/react";
 
 const Bar_Work = () => {
   const bg = useColorModeValue("white", "gray.800");
   const mobileNav = useDisclosure();
   const { colorMode, toggleColorMode } = useColorMode();
+  const linkUrl = useBreakpointValue({
+    md: "/work",
+    lg: "/experiences",
+  });
 
   return (
     <React.Fragment>
@@ -100,7 +105,7 @@ const Bar_Work = () => {
                     </Portal>
                   </Button>
                 </Menu>
-                <Link href="/experiences">
+                <Link href="linkUrl">
                   <Button
                     w="full"
                     variant="ghost"
@@ -130,11 +135,7 @@ const Bar_Work = () => {
                     Contact
                   </Button>
                 </Link>
-                <Link href="/work">
-                  <Button w="full" variant="ghost" size="sm">
-                    Works
-                  </Button>
-                </Link>
+          
                 <Link
                   href="https://github.com/EkVid"
                   leftIcon={<CheckCircleIcon />}
