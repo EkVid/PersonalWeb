@@ -21,7 +21,7 @@ const ProjectPreview3 = ({ isHero }) => {
           bg: "gray.800",
         }}
       >
-        <Link href="https://csb.utoronto.ca/faculty/guillaume-filion/"
+        <Link href="https://filionlab.github.io/"
           target="_blank"
           rel="noopener noreferrer">
           <Image
