@@ -57,7 +57,7 @@ const Works = () => (
         </Section>
         <Section>
           <Link
-            href="https://csb.utoronto.ca/faculty/guillaume-filion/"
+            href="https://filionlab.github.io/"
             target="_blank"
             rel="noopener noreferrer"
           >
