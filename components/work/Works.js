@@ -46,7 +46,7 @@ const Works = () => (
           >
             <Image src="images/csu.png" rounded={"lg"} /> <br></br>
             <WorkGridItem
-              title="Wedmaster"
+              title="Webmaster"
               framework="WORDPRESS, NEXT.JS, CHAKRA UI, VSCODE, CHOC UI"
             >
               <br></br>A data-driven Responsible for publicity of CSU for the
