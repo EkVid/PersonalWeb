@@ -12,7 +12,8 @@ const Introduction = () => {
             pt={5}
             fontFamily={"serif"}
           >
-            2nd year Co-op CS and Biochemistry Student at University of Toronto.
+            3rd year student at University of Toronto specializing in CS and
+            minoring in Biology
           </Text>
         </Box>
       </Center>
