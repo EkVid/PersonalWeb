@@ -71,7 +71,6 @@ const Navbar = () => {
                   HomePage
                 </Button>
               </Link>
-</Link>
               <Link href="/">
                 <Button w="full" variant="ghost">
                   CN
