@@ -4,8 +4,9 @@ import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 
 const wordList = [
-  "Biochemist in training",
   "Full Stack Developer",
+  "Biochemist in training",
+  "Data Scientist in training",
   "Casual Runner",
   "Polyglot",
   "Book Enthusiast",
