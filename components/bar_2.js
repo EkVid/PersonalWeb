@@ -71,6 +71,17 @@ const Navbar = () => {
                   HomePage
                 </Button>
               </Link>
+</Link>
+              <Link href="/">
+                <Button w="full" variant="ghost">
+                  CN
+                </Button>
+              </Link>
+              <Link href="/">
+                <Button w="full" variant="ghost">
+                  JP
+                </Button>
+              </Link>
             </Flex>
             <HStack display="flex" alignItems="center" spacing={1}>
               <HStack
