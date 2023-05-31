@@ -4,7 +4,7 @@ const Im = () => {
   return (
     <Center pt={70}>
       <Image
-        src="/images/t_res2.jpg"
+        src="/images/techres.jpg"
         alt="Resume Tech"
         width={{ base: "90%", md: "70%", lg: "50%" }}
         height={{ base: "auto", md: "auto", lg: "auto" }}
