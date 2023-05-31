@@ -5,7 +5,7 @@ const Resumebutton = () => {
   return (
     <Center pt={5}>
       <ButtonGroup size="sm" isAttached variant="outline">
-        <Link href="/images/t_res2.jpg" download="Resume">
+        <Link href="/images/techres.jpg" download="Resume">
           <Button width={200} height={50}>
             Download as jpg
             <Text ml={1}>
