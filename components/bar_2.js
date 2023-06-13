@@ -8,7 +8,7 @@ import {
   CheckCircleIcon,
   EditIcon,
   InfoIcon,
-  ArrowLeftIcon,
+  StarIcon,
 } from "@chakra-ui/icons";
 import { AiFillHome, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import {
@@ -125,6 +125,13 @@ const Navbar = () => {
                     Publications
                   </Button>
                 </Link>
+
+                <Link href="/problem_sol">
+                  <Button variant="ghost" leftIcon={<StarIcon />} size="sm">
+                    Problem Solvings
+                  </Button>
+                </Link>
+
                 <Link href="/contact">
                   <Button
                     w="full"
@@ -135,7 +142,7 @@ const Navbar = () => {
                     Contact
                   </Button>
                 </Link>
-    
+
                 <Link
                   href="https://github.com/EkVid"
                   leftIcon={<CheckCircleIcon />}
@@ -197,13 +204,8 @@ const Navbar = () => {
 
                   <Link href="/resumetech">
                     <chakra.h1 size="sm" ml={5}>
-                      Tech Resume
+                      Resume
                     </chakra.h1>
-                  </Link>
-                  <Link href="/resumesci">
-                    <chakra.h1 size="sm" ml={5}>
-                      Science Resume
-                    </chakra.h1>{" "}
                   </Link>
 
                   <Link href="/work">
@@ -212,6 +214,9 @@ const Navbar = () => {
 
                   <Link href="/publications">
                     <chakra.h1 size="sm">Publications</chakra.h1>
+                  </Link>
+                  <Link href="/problem_sol">
+                    <chakra.h1 size="sm">Problem Solvings</chakra.h1>
                   </Link>
                   <Link href="/contact">
                     <chakra.h1 size="sm">Contact</chakra.h1>
