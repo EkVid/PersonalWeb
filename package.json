@@ -12,9 +12,14 @@
     "@emotion/styled": "^11.10.8",
     "framer-motion": "^10.12.4",
     "next": "latest",
+    "next-i18next": "^13.2.2",
+    "next-translate": "^2.0.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
-    "react-use-downloader": "^1.2.4"
+    "react-latex-next": "^2.2.0",
+    "react-use-downloader": "^1.2.4",
+    "three": "^0.152.2",
+    "typewriter-effect": "^2.20.1"
   }
 }
