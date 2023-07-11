@@ -1,6 +1,7 @@
 import ProjectPreview from ".//expcomp";
 import ProjectPreview2 from ".//exp2";
 import ProjectPreview3 from ".//exp3";
+import ProjectPreview4 from ".//exp4";
 import { Center, Text, Divider, Box } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
@@ -20,6 +21,7 @@ const All = () => {
             transition={{ duration: 0.6, delay: 0 }}
           >
             <ProjectPreview />
+            <ProjectPreview4 />
             <ProjectPreview2 />
             <ProjectPreview3 />
           </motion.div>
