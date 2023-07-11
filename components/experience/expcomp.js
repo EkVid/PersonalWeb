@@ -12,7 +12,7 @@ const ProjectPreview = ({ isHero }) => {
       bg="white"
       ml="50px"
       mr="50px"
-      mt="40px"
+      mt="1000px"
       _dark={{
         bg: "gray.800",
       }}
@@ -65,7 +65,7 @@ const ProjectPreview = ({ isHero }) => {
             }}
           >
             <Text fontFamily={"serif"}>
-              PYGAME, VSCODE, SQL, CSV (Details available in Github)
+              PYGAME, VSCODE, Python, Problem Solving
             </Text>
             <br></br>
             <Text fontFamily={"serif"} fontWeight={"bold"} fontSize={"30px"}>
