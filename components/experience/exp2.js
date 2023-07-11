@@ -21,15 +21,21 @@ const ProjectPreview2 = ({ isHero }) => {
           bg: "gray.800",
         }}
       >
-        <Image
-          roundedTop="lg"
-          w="full"
-          h={height}
-          width={width}
-          fit="cover"
-          src="/images/food.png"
-          border={"5px solid grey"}
-        />
+        <Link
+          href="https://github.com/EkVid/Recipe-Recommendation-Engine"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            roundedTop="lg"
+            w="full"
+            h={height}
+            width={width}
+            fit="cover"
+            src="/images/food.png"
+            border={"5px solid grey"}
+          />
+        </Link>
 
         <Box p={6} width={width}>
           <Box>
@@ -109,9 +115,11 @@ const ProjectPreview2 = ({ isHero }) => {
           bg: "gray.800",
         }}
       >
-        <Link href="https://www.utsc.utoronto.ca/programs/csu/"
+        <Link
+          href="https://www.utsc.utoronto.ca/programs/csu/"
           target="_blank"
-          rel="noopener noreferrer">
+          rel="noopener noreferrer"
+        >
           <Image
             roundedTop="lg"
             w="full"
