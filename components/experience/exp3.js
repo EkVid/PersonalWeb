@@ -21,9 +21,11 @@ const ProjectPreview3 = ({ isHero }) => {
           bg: "gray.800",
         }}
       >
-        <Link href="https://filionlab.github.io/"
+        <Link
+          href="https://filionlab.github.io/"
           target="_blank"
-          rel="noopener noreferrer">
+          rel="noopener noreferrer"
+        >
           <Image
             roundedTop="lg"
             w="full"
@@ -113,9 +115,11 @@ const ProjectPreview3 = ({ isHero }) => {
           bg: "gray.800",
         }}
       >
-        <Link href="https://www.utsc.utoronto.ca/labs/andrade/"
+        <Link
+          href="https://www.utsc.utoronto.ca/labs/andrade/"
           target="_blank"
-          rel="noopener noreferrer">
+          rel="noopener noreferrer"
+        >
           <Image
             roundedTop="lg"
             w="full"
