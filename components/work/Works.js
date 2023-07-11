@@ -32,12 +32,55 @@ const Works = () => (
             framework="PYGAME, VSCODE, SQL, CSV (Details available in Github)"
           >
             <br></br>A Card Flipping Games with different difficulty levels,
-            resulting in increased user engagement and retention.
+            resulting in increased user engagement and retention. Actively
+            gathered and analyzed user feedback, resulting in the implementation
+            of user-friendly features and improved functionality.
           </WorkGridItem>
         </Link>
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <Link
+            href="https://github.com/EkVid/Mental-Health-related-Data-Engine"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src="images/data.jpg" rounded={"lg"} /> <br></br>
+            <WorkGridItem
+              title="Mental Health Related Data Engine"
+              framework="Python, VSCODE, SQL, HTML, CSV"
+            >
+              <br></br> Developed an extensive database containing over 10,000
+              data points on anxiety and bipolar disorder indicators across 50+
+              countries, enabling in-depth analysis as well as creating a data
+              collection mechanism to gather data on anxiety and bipolar
+              disorder indicators from 20+ reliable sources, ensuring a
+              comprehensive dataset.
+            </WorkGridItem>
+          </Link>
+        </Section>
+
+        <Section>
+          <Link
+            href="http://brianharrington.net/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src="images/CS_ED.jpg" rounded={"lg"} /> <br></br>
+            <WorkGridItem
+              title="CS Research Assistant"
+              framework="Python, R, Data Analysis, Literature Review"
+            >
+              <br></br> Assist with 1000+ literature reviews about how the
+              Alternative Grading System affects students' performance, and
+              utilize Python & R to manipulate datasets on 1000+ articles as
+              well as performing intricate operations on the database with
+              utmost precision and effectiveness.
+            </WorkGridItem>
+          </Link>
+        </Section>
+
         <Section>
           <Link
             href="https://www.utsc.utoronto.ca/programs/csu/"
@@ -46,18 +89,37 @@ const Works = () => (
           >
             <Image src="images/csu.png" rounded={"lg"} /> <br></br>
             <WorkGridItem
-              title="Webmaster"
-              framework="WORDPRESS, NEXT.JS, CHAKRA UI, VSCODE, CHOC UI"
+              title="Wedmaster"
+              framework="WordPress, Next.JS, Chakra UI, VSCODE, Choc UI"
             >
-              <br></br>A data-driven Responsible for publicity of CSU for the
-              purposes of recruiting members and advertising events held by the
-              organization through updating the organization's website.
+              <br></br> Responsible for publicity of CSU for the purposes of
+              recruiting members and advertising events held by the organization
+              through updating the organization's website. Coordinate with the
+              CSU team to get all advertisements and information on the website.
             </WorkGridItem>
           </Link>
         </Section>
+        <Section delay={0.1}>
+          <Link
+            href="https://github.com/EkVid/Recipe-Recommendation-Engine"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src="images/food.png" rounded={"lg"} /> <br></br>
+          </Link>
+          <WorkGridItem
+            title="Recipe Recommendation Engine"
+            framework="C/C++, VSCODE, Graph Theory"
+          >
+            <br></br> Developed a data-driven ingredient recommendation engine
+            to help with cognitive cooking. Enhanced the program's computational
+            creativity to generate innovative cooking recipes through graph
+            theory.
+          </WorkGridItem>
+        </Section>
         <Section>
           <Link
-            href="https://filionlab.github.io/"
+            href="https://csb.utoronto.ca/faculty/guillaume-filion/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -68,21 +130,14 @@ const Works = () => (
             >
               <br></br>
               Assisted with computer-based work involving organizing and
-              analyzing DNA sequences.
+              analyzing DNA sequences using bioinformatics tools in research
+              databases, as well as utilizing Python, R, Excel to enter and
+              analyze data, applying data analysis techniques and statistical
+              methods to extract meaningful insights from large datasets
             </WorkGridItem>
           </Link>
         </Section>
 
-        <Section delay={0.1}>
-          <Image src="images/food.png" rounded={"lg"} /> <br></br>
-          <WorkGridItem
-            title="Recipe Recommendation Engine"
-            framework="C/C++, VSCODE, Graph Theory"
-          >
-            <br></br>A data-driven ingredient recommendation engine to help with
-            cognitive cooking.
-          </WorkGridItem>
-        </Section>
         <Section delay={0.1}>
           <Link
             href="https://www.utsc.utoronto.ca/labs/andrade/"
@@ -95,8 +150,10 @@ const Works = () => (
               title="Research Assistant"
               framework={"Supervisor: Dr. Maydianne Andrade"}
             >
-              <br></br>Responsible for monitoring live populations of black
-              widow spiders, other closely related species
+              <br></br> Responsible for feeding, watering, and monitoring live
+              populations of black widow spiders, other closely related species,
+              and their insect prey as well as conducting extensive literature
+              searches about biosafety and spider biology.
             </WorkGridItem>
           </Link>
         </Section>
