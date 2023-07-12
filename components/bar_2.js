@@ -203,7 +203,7 @@ const Navbar = () => {
                   </Link>
 
                   <Link href="/resumetech">
-                    <chakra.h1 size="sm" ml={5}>
+                    <chakra.h1 size="sm">
                       Resume
                     </chakra.h1>
                   </Link>
