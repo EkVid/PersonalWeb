@@ -1,4 +1,4 @@
 Personal Website 
 Designed using Next.js with Chakra UI and Choc UI
 
-Website URL: austinyt.in
+Website URL: https://austinyt.in
