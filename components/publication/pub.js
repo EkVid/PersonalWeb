@@ -1,6 +1,7 @@
 import { Text, Center, Divider } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import Progresses from "./progress";
+import Progresses_2 from "./prog_2";
 
 import Link from "next/link";
 
@@ -11,14 +12,13 @@ const Pub = () => {
         <Text
           fontSize={{ base: "35px", md: "40px", lg: "56px" }}
           spacing={3}
-          pt={{ base: 800, md: 600, lg: 700 }}
+          pt={{ base: 1000, md: 1200, lg: 1200 }}
           fontWeight={"bold"}
           fontFamily={"serif"}
         >
           Article Publications
         </Text>
       </Center>
-
       <br></br>
       <br></br>
       <br></br>
@@ -138,6 +138,61 @@ const Pub = () => {
       </Text>
       <br></br>
       <Progresses />
+      <br></br>
+      <br></br>
+      <br></br>
+      <Text
+        fontSize={{ base: "20px", md: "25px", lg: "30px" }}
+        fontFamily={"serif"}
+      >
+        Impact of COVID on CS Education
+      </Text>
+      <br></br>
+      <Divider />
+      <br></br>
+      <Text
+        fontSize={{ base: "10px", md: "15px", lg: "15px" }}
+        fontFamily={"serif"}
+        fontWeight={"bold"}
+      >
+        KEYWORDS{" "}
+      </Text>
+      <br></br>
+      <Text
+        fontSize={{ base: "15px", md: "20px", lg: "20px" }}
+        fontFamily={"serif"}
+      >
+        CS Education, Online Learning, Covid
+      </Text>
+      <br></br>
+      <Divider />
+      <br></br>
+      <Text
+        fontSize={{ base: "10px", md: "15px", lg: "15px" }}
+        fontFamily={"serif"}
+        fontWeight={"bold"}
+      >
+        CONTRIBUTORS{" "}
+      </Text>
+      <br></br>
+      <Text
+        fontSize={{ base: "15px", md: "20px", lg: "20px" }}
+        fontFamily={"serif"}
+      >
+        Dr. Brian Harrington, Austin (Tian) Yang, other team members
+      </Text>
+      <br></br>
+      <Divider />
+      <br></br>
+      <Text
+        fontSize={{ base: "10px", md: "15px", lg: "15pxx" }}
+        fontFamily={"serif"}
+        fontWeight={"bold"}
+      >
+        Full Article Link (In Progress~~)
+      </Text>
+      <br></br>
+      <Progresses_2 />
       <br></br>
       <br></br>
       <br></br>
