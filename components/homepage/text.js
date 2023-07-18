@@ -13,7 +13,7 @@ const T = () => {
           fontWeight={"bold"}
           fontFamily={"serif"}
         >
-          AUSTIN YANG
+          Austin Yang
         </Text>
       </Center>
 
