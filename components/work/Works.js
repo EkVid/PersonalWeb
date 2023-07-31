@@ -81,6 +81,29 @@ const Works = () => (
           </Link>
         </Section>
 
+        <Section delay={0.1}>
+          <Link
+            href="https://github.com/sm0ca/cscb07project"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src="images/default.png" rounded={"lg"} />
+            <br></br>
+            <WorkGridItem
+              title="Full Stack Online Mall Shopping App"
+              framework={
+                "Software Design, Scrum, Java, Android Studio, Firebase, Design Patterns"
+              }
+            >
+              <br></br> Collaborated with a team of 4 with a scrum system to
+              effectively manifest an online shopping app with shoppers and
+              owners in a mall with over 100 owners and shoppers. Maintained
+              efficient MVP Design Patterns using Android Studio and adhered to
+              the 5 SOLID Principles.
+            </WorkGridItem>
+          </Link>
+        </Section>
+
         <Section>
           <Link
             href="https://www.utsc.utoronto.ca/programs/csu/"
