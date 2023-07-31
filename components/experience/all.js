@@ -2,9 +2,10 @@ import ProjectPreview from ".//expcomp";
 import ProjectPreview2 from ".//exp2";
 import ProjectPreview3 from ".//exp3";
 import ProjectPreview4 from ".//exp4";
+import ProjectPreview5 from "./exp_mall";
 import { Center, Text, Divider, Box } from "@chakra-ui/react";
 import { motion } from "framer-motion";
-
+import dynamic from "next/dynamic";
 const All = () => {
   return (
     <>
@@ -24,6 +25,7 @@ const All = () => {
             <ProjectPreview4 />
             <ProjectPreview2 />
             <ProjectPreview3 />
+            <ProjectPreview5 />
           </motion.div>
         </Box>
       </Center>
@@ -31,4 +33,4 @@ const All = () => {
   );
 };
 
-export default All;
+export default dynamic(() => Promise.resolve(All), { ssr: false });
