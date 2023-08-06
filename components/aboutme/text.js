@@ -39,7 +39,7 @@ const Titles = () => {
           >
             {" "}
             My name is Austin, a third year student specializing in Co-op Computer Science
-            and minoring in Economics & Biology at the University of Toronto.
+            and minoring in Econ & Bio at the University of Toronto.
           </Text>
         </Box>
       </Center>
