@@ -13,7 +13,7 @@ const Introduction = () => {
             fontFamily={"serif"}
           >
             3rd year student at University of Toronto specializing in CS and
-            minoring in Biology
+            minoring in Economics & Biology
           </Text>
         </Box>
       </Center>
