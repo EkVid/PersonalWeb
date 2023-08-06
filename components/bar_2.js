@@ -145,7 +145,8 @@ const Navbar = () => {
 
                 <Link
                   href="https://github.com/EkVid"
-                  leftIcon={<CheckCircleIcon />}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   size="sm"
                 >
                   <Button variant="ghost" size="sm">
