@@ -22,10 +22,10 @@ const All = () => {
             transition={{ duration: 0.6, delay: 0 }}
           >
             <ProjectPreview />
+            <ProjectPreview5 />
             <ProjectPreview4 />
             <ProjectPreview2 />
             <ProjectPreview3 />
-            <ProjectPreview5 />
           </motion.div>
         </Box>
       </Center>
