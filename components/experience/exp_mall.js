@@ -21,7 +21,7 @@ const ProjectPreview5 = ({ isHero }) => {
         }}
       >
         <Link
-          href="https://github.com/sm0ca/cscb07project"
+          href="https://github.com/EkVid/Full-Stack-Online-Mall-Shopping-App"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -31,7 +31,7 @@ const ProjectPreview5 = ({ isHero }) => {
             h={height}
             width={width}
             fit="cover"
-            src="/images/default.jpg"
+            src="/images/mall.png"
             border={"5px solid grey"}
           />
         </Link>
@@ -116,7 +116,7 @@ const ProjectPreview5 = ({ isHero }) => {
         }}
       >
         <Link
-          href="https://github.com/sm0ca/cscb07project"
+          href="https://ds3-dev.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -126,7 +126,7 @@ const ProjectPreview5 = ({ isHero }) => {
             h={height}
             width={width}
             fit="cover"
-            src="/images/default.jpg"
+            src="/images/DS3.png"
             border={"5px solid grey"}
           />
         </Link>
@@ -163,14 +163,19 @@ const ProjectPreview5 = ({ isHero }) => {
                 color: "gray.400",
               }}
             >
-              <Text fontFamily={"serif"}>In Progress</Text>
+              <Text fontFamily={"serif"}>
+                Javascript, HTML, CSS, Figma, Web Design
+              </Text>
               <br></br>
               <Text fontFamily={"serif"} fontWeight={"bold"} fontSize={"30px"}>
-                In Progress
+                Web Developer for Data Science & Statistics Society (DS3)
               </Text>
               <br></br>
               <Text fontFamily={"serif"} fontSize={"20px"}>
-                In Progress
+                Responsible for regularly updating the website as well as
+                ensuring a smooth and intuitive user experience. Applied
+                user-centric design principles to create a seamless navigation
+                experience.
               </Text>
             </chakra.p>
           </Box>
