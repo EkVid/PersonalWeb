@@ -39,6 +39,29 @@ const Works = () => (
         </Link>
       </Section>
 
+      <Section delay={0.1}>
+        <Link
+          href="https://github.com/EkVid/Full-Stack-Online-Mall-Shopping-App"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image src="images/mall.png" rounded={"lg"} />
+          <br></br>
+          <WorkGridItem
+            title="Full Stack Online Mall Shopping App"
+            framework={
+              "Software Design, Scrum, Java, Android Studio, Firebase, Design Patterns"
+            }
+          >
+            <br></br> Collaborated with a team of 4 with a scrum system to
+            effectively manifest an online shopping app with shoppers and owners
+            in a mall with over 100 owners and shoppers. Maintained efficient
+            MVP Design Patterns using Android Studio and adhered to the 5 SOLID
+            Principles.
+          </WorkGridItem>
+        </Link>
+      </Section>
+
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <Link
@@ -57,6 +80,26 @@ const Works = () => (
               collection mechanism to gather data on anxiety and bipolar
               disorder indicators from 20+ reliable sources, ensuring a
               comprehensive dataset.
+            </WorkGridItem>
+          </Link>
+        </Section>
+
+        <Section delay={0.1}>
+          <Link
+            href="https://ds3-dev.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src="images/DS3.png" rounded={"lg"} />
+            <br></br>
+            <WorkGridItem
+              title="Web Developer for Data Science & Statistics Society (DS3)"
+              framework={"Javascript, HTML, CSS, Figma, Web Design"}
+            >
+              <br></br> Responsible for regularly updating the website as well
+              as ensuring a smooth and intuitive user experience. Applied
+              user-centric design principles to create a seamless navigation
+              experience.
             </WorkGridItem>
           </Link>
         </Section>
@@ -81,29 +124,6 @@ const Works = () => (
           </Link>
         </Section>
 
-        <Section delay={0.1}>
-          <Link
-            href="https://github.com/sm0ca/cscb07project"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image src="images/default.png" rounded={"lg"} />
-            <br></br>
-            <WorkGridItem
-              title="Full Stack Online Mall Shopping App"
-              framework={
-                "Software Design, Scrum, Java, Android Studio, Firebase, Design Patterns"
-              }
-            >
-              <br></br> Collaborated with a team of 4 with a scrum system to
-              effectively manifest an online shopping app with shoppers and
-              owners in a mall with over 100 owners and shoppers. Maintained
-              efficient MVP Design Patterns using Android Studio and adhered to
-              the 5 SOLID Principles.
-            </WorkGridItem>
-          </Link>
-        </Section>
-
         <Section>
           <Link
             href="https://www.utsc.utoronto.ca/programs/csu/"
@@ -112,7 +132,7 @@ const Works = () => (
           >
             <Image src="images/csu.png" rounded={"lg"} /> <br></br>
             <WorkGridItem
-              title="Wedmaster"
+              title="Webmaster"
               framework="WordPress, Next.JS, Chakra UI, VSCODE, Choc UI"
             >
               <br></br> Responsible for publicity of CSU for the purposes of
