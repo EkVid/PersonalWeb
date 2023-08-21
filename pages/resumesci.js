@@ -1,6 +1,7 @@
 import Navbar from "../components/bar_2";
 import Resumebutton2 from "../components/resume/resbut_2";
 import Scires from "../components/resume/scires";
+import ParticleBackground from "../components/particles/background";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <br></br>
       <br></br>
       <br></br>
+      <ParticleBackground />
     </div>
   );
 }
