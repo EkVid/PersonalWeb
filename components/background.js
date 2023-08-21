@@ -1,7 +1,5 @@
 import Particles from "react-tsparticles";
-import Particlesconfig from "./tunnel";
-import Particlesconfig2 from "./basic";
-
+import Particlesconfig from "./particle_config";
 import { loadFull } from "tsparticles";
 
 const ParticleBackground = () => {
@@ -14,7 +12,7 @@ const ParticleBackground = () => {
     <Particles
       id="tsparticles"
       init={particlesInit}
-      options={Particlesconfig2}
+      options={Particlesconfig}
     />
   );
 };
