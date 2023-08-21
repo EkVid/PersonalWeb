@@ -1,6 +1,7 @@
 import Navbar from "../components/bar_2";
 import Movement from "../components/experience/movement";
 import All from "../components/experience/all";
+import ParticleBackground from "../components/particles/background";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <Movement />
       <All />
+      <ParticleBackground />
     </div>
   );
 }
