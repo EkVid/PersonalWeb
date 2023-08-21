@@ -1,7 +1,7 @@
 import Navbar from "../components/bar_2";
 import Resumebutton from "../components/resume/resbut";
 import Im from "../components/resume/resume";
-import ParticleBackground from "../components/particles/background";
+import ParticleBackground from "../components/background";
 
 export default function Home() {
   return (
