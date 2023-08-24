@@ -12,7 +12,7 @@ const Pub = () => {
         <Text
           fontSize={{ base: "35px", md: "40px", lg: "56px" }}
           spacing={3}
-          pt={{ base: 1100, md: 1200, lg: 1700 }}
+          pt={{ base: 1600, md: 1700, lg: 1700 }}
           fontWeight={"bold"}
           fontFamily={"serif"}
         >
@@ -90,7 +90,7 @@ const Pub = () => {
         fontSize={{ base: "20px", md: "25px", lg: "30px" }}
         fontFamily={"serif"}
       >
-        Emerging Bioinformatics databses in RNA biology
+        Emerging Bioinformatics databses in RNA biology (In Progress)
       </Text>
       <br></br>
       <Divider />
@@ -202,7 +202,7 @@ const Pub = () => {
         fontSize={{ base: "20px", md: "25px", lg: "30px" }}
         fontFamily={"serif"}
       >
-        Impact of COVID on CS Education
+        Impact of COVID on CS Education (In Progress)
       </Text>
       <br></br>
       <Divider />
