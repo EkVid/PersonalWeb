@@ -12,7 +12,7 @@ const Pub = () => {
         <Text
           fontSize={{ base: "35px", md: "40px", lg: "56px" }}
           spacing={3}
-          pt={{ base: 1000, md: 1200, lg: 1200 }}
+          pt={{ base: 1100, md: 1200, lg: 1700 }}
           fontWeight={"bold"}
           fontFamily={"serif"}
         >
@@ -82,6 +82,62 @@ const Pub = () => {
           Full Article Link <ExternalLinkIcon mx="2px" />
         </Text>
       </Link>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <Text
+        fontSize={{ base: "20px", md: "25px", lg: "30px" }}
+        fontFamily={"serif"}
+      >
+        Emerging Bioinformatics databses in RNA biology
+      </Text>
+      <br></br>
+      <Divider />
+      <br></br>
+      <Text
+        fontSize={{ base: "10px", md: "15px", lg: "15px" }}
+        fontFamily={"serif"}
+        fontWeight={"bold"}
+      >
+        KEYWORDS{" "}
+      </Text>
+      <br></br>
+      <Text
+        fontSize={{ base: "15px", md: "20px", lg: "20px" }}
+        fontFamily={"serif"}
+      >
+        Bioinformatics, RNA, Gene Modification, Database
+      </Text>
+      <br></br>
+      <Divider />
+      <br></br>
+      <Text
+        fontSize={{ base: "10px", md: "15px", lg: "15px" }}
+        fontFamily={"serif"}
+        fontWeight={"bold"}
+      >
+        CONTRIBUTORS{" "}
+      </Text>
+      <br></br>
+      <Text
+        fontSize={{ base: "15px", md: "20px", lg: "20px" }}
+        fontFamily={"serif"}
+      >
+        Akshat Dharmeshkumar Modi, Austin (Tian) Yang{" "}
+      </Text>
+      <br></br>
+      <Divider />
+      <br></br>
+      <Text
+        fontSize={{ base: "10px", md: "15px", lg: "15pxx" }}
+        fontFamily={"serif"}
+        fontWeight={"bold"}
+      >
+        Full Article Link (In Progress~~)
+      </Text>
+      <br></br>
+      <Progresses />
       <br></br>
       <br></br>
       <br></br>
