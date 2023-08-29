@@ -39,8 +39,8 @@ const Titles = () => {
             fontFamily={"serif"}
           >
             {" "}
-            My name is Austin, a second year student in Co-op Computer Science
-            and Biochemistry at University of Toronto.
+            My name is Austin, a third year student Speclializing in CS and
+            Minoring in Econ & Bio at the University of Toronto.
           </Text>
         </Box>
       </Center>
