@@ -1,4 +1,5 @@
 import { Center, Text, Divider, Link, Box } from "@chakra-ui/react";
+import dynamic from "next/dynamic";
 
 const Titles = () => {
   return (
@@ -38,8 +39,8 @@ const Titles = () => {
             fontFamily={"serif"}
           >
             {" "}
-            My name is Austin, a third year student specializing in Computer Science
-            and minoring in Econ & Bio at the University of Toronto.
+            My name is Austin, a second year student in Co-op Computer Science
+            and Biochemistry at University of Toronto.
           </Text>
         </Box>
       </Center>
@@ -78,8 +79,7 @@ const Titles = () => {
             Interestingly, I would often spend hours tinkering with gadgets and
             exploring the inner workings of machines. My curiosity about how
             things worked only grew with time, and eventually led me to pursue a
-            double major in Computer Science and Biochemistry at the University
-            of Toronto.
+            specliast in Computer Science at the University of Toronto.
           </Text>
         </Box>
       </Center>
@@ -97,13 +97,14 @@ const Titles = () => {
           through academic coursework, research, and industry experience. In my
           CS studies, I have learned programming languages such as Java and
           Python, and developed a strong foundation in algorithms, data
-          structures, and software engineering. In my Biochemistry studies, I
-          have gained knowledge about the structure and function of biological
+          structures, and software engineering. In my Biology studies, I have
+          gained knowledge about the structure and function of biological
           systems, and have conducted research on topics such as protein folding
-          and drug design. As I move forward in my academic and professional
-          journey, I am excited to continue exploring the intersections between
-          computer science and biochemistry, and to use my skills to link the
-          two subjects together.
+          and metabolism. As I move forward in my academic and professional
+          journey, I also developed an interest in modern world economics, and I
+          am excited to continue exploring the intersections between computer
+          science and these different fields, and to use my skills to link these
+          subjects together.
         </Text>
       </Center>
       <br></br>
@@ -114,4 +115,4 @@ const Titles = () => {
   );
 };
 
-export default Titles;
+export default dynamic(() => Promise.resolve(Titles), { ssr: false });
