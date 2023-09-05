@@ -1,13 +1,4 @@
-import {
-  Avatar,
-  AvatarBadge,
-  AvatarGroup,
-  Stack,
-  Link,
-  Image,
-  Button,
-  Toast,
-} from "@chakra-ui/react";
+import { Stack, Link, Image, Button } from "@chakra-ui/react";
 import { Icon } from "@chakra-ui/react";
 import { AiFillInstagram } from "react-icons/ai";
 import { AiFillPhone, AiFillMail, AiFillLinkedin } from "react-icons/ai";
@@ -19,6 +10,8 @@ import Toastsss from "./toasts/toastm";
 import Toastssss from "./toasts/toastm2";
 import Toasti from "./toasts/toasti";
 import dynamic from "next/dynamic";
+import React from "react";
+import { FaDiscord } from "react-icons/fa";
 
 const Avatars = () => {
   return (
@@ -123,18 +116,12 @@ const Avatars = () => {
         <Menu>
           <MenuButton>
             {" "}
-            <Image
-              boxSize="300px"
-              src="/images/discord.png"
-              alt="Discord Icon"
-              width={{ base: 30, md: 40, lg: 100 }}
-              height={{ base: 30, md: 40, lg: 100 }}
-            />
+            <Icon as={FaDiscord} boxSize={{ base: 30, md: 40, lg: 100 }} />
           </MenuButton>
           <Portal>
             <MenuList>
               <MenuItem
-                onClick={() => navigator.clipboard.writeText("Vivini#6145")}
+                onClick={() => navigator.clipboard.writeText(".Vivini")}
               >
                 <Toasts />
               </MenuItem>
