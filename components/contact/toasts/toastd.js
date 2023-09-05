@@ -15,7 +15,7 @@ const Toasts = () => {
         })
       }
     >
-      Vivini#6145
+      .Vivini
     </chakra.h1>
   );
 };
