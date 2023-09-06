@@ -51,6 +51,9 @@ const Bar_Work = () => {
         px={{ base: 2, sm: 4 }}
         py={3}
         shadow="md"
+        position="fixed" // Set the position to fixed
+        top="0" // Stick it to the top of the viewport
+        zIndex="999" // Ensure it's above other content
       >
         <motion.div
           className="title"
