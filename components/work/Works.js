@@ -21,6 +21,46 @@ const Works = () => (
 
       <Section>
         <Link
+          href="https://www.geotab.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image src="images/geotab.jpeg" rounded={"lg"} />
+          <br></br>
+          <WorkGridItem
+            title="Solutions Engineer Intern at Geotab"
+            framework="Python, Pandas, Numpy, SQL, Google Big Queries"
+          >
+            <br></br>Update and maintain department and team documentation/sites
+            as required, helping to standardize processes. Also provide
+            technical program management support for department-wide projects,
+            helping to streamline business processes and increase
+            department-wide productivity.
+          </WorkGridItem>
+        </Link>
+      </Section>
+
+      <Section delay={0.1}>
+        <Link
+          href="https://www.utsc.utoronto.ca/biosci/nathan-lovejoy"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image src="images/evolution.jpeg" rounded={"lg"} />
+          <br></br>
+          <WorkGridItem
+            title="Frnont - End Developer at Evoluntionary Biology Lab"
+            framework="Javascript, HTML, CSS, Web Design"
+          >
+            <br></br> Responsible for designing and creating a professional
+            website for Professor Nathan Lovejoy under the department of
+            Biological Science.
+          </WorkGridItem>
+        </Link>
+      </Section>
+
+      <Section delay={0.1}>
+        <Link
           href="https://www.youtube.com/watch?v=Y7fxK1sJOFU"
           target="_blank"
           rel="noopener noreferrer"

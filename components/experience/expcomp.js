@@ -12,7 +12,7 @@ const ProjectPreview = ({ isHero }) => {
       bg="white"
       ml="50px"
       mr="50px"
-      mt="2000px"
+      mt="2700px"
       _dark={{
         bg: "gray.800",
       }}

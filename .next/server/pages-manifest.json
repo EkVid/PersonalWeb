@@ -3,9 +3,8 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/experiences": "pages/experiences.js",
+  "/work": "pages/work.js",
   "/": "pages/index.js",
-  "/publications": "pages/publications.js",
-  "/problem_sol": "pages/problem_sol.js",
-  "/contact": "pages/contact.js",
+  "/resumetech": "pages/resumetech.js",
   "/aboutme": "pages/aboutme.js"
 }
