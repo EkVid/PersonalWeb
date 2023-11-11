@@ -1,10 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/experiences": "pages/experiences.js",
-  "/work": "pages/work.js",
-  "/": "pages/index.js",
-  "/resumetech": "pages/resumetech.js",
-  "/aboutme": "pages/aboutme.js"
-}
+{}
