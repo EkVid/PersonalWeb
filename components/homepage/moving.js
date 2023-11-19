@@ -1,9 +1,8 @@
 import { motion } from "framer-motion";
-import { Center, Text, Box, Button, Link } from "@chakra-ui/react";
+import { Center, Box } from "@chakra-ui/react";
 import Changes from "./change";
 import T from "./text";
 import Introduction from "./introduction";
-import { ExternalLinkIcon } from "@chakra-ui/icons";
 import dynamic from "next/dynamic";
 
 const Spla = () => {
@@ -45,8 +44,7 @@ const Spla = () => {
             initial={{ opacity: 0, translateY: 50 }}
             whileInView={{ opacity: 1, translateY: 0 }}
             transition={{ duration: 0.6 }}
-          >
-          </motion.div>
+          ></motion.div>
         </Box>
       </Center>
     </>
