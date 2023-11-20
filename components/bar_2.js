@@ -85,26 +85,12 @@ const Navbar = () => {
                     About Me
                   </Button>
                 </Link>
-                <Menu>
-                  <Button
-                    variant="ghost"
-                    // colorScheme="brand"
-                    leftIcon={<AttachmentIcon />}
-                    size="sm"
-                  >
-                    <MenuButton> Resume </MenuButton>
-                    <Portal>
-                      <MenuList>
-                        <Link href="/resumetech">
-                          <MenuItem>Tech Related</MenuItem>
-                        </Link>
-                        <Link href="/resumesci">
-                          <MenuItem>Science Related</MenuItem>
-                        </Link>
-                      </MenuList>
-                    </Portal>
+                <Link href="/resumetech">
+                  <Button variant="ghost" size="sm">
+                    <AttachmentIcon marginRight={3} />
+                    Resume
                   </Button>
-                </Menu>
+                </Link>
                 <Link href={linkUrl}>
                   <Button
                     w="full"
@@ -204,9 +190,7 @@ const Navbar = () => {
                   </Link>
 
                   <Link href="/resumetech">
-                    <chakra.h1 size="sm">
-                      Resume
-                    </chakra.h1>
+                    <chakra.h1 size="sm">Resume</chakra.h1>
                   </Link>
 
                   <Link href="/work">
