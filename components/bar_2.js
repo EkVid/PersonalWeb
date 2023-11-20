@@ -112,12 +112,6 @@ const Navbar = () => {
                   </Button>
                 </Link>
 
-                <Link href="/problem_sol">
-                  <Button variant="ghost" leftIcon={<StarIcon />} size="sm">
-                    Problem Solvings
-                  </Button>
-                </Link>
-
                 <Link href="/contact">
                   <Button
                     w="full"

@@ -2,11 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/experiences": "pages/experiences.js",
-  "/": "pages/index.js",
   "/resumetech": "pages/resumetech.js",
-  "/publications": "pages/publications.js",
-  "/aboutme": "pages/aboutme.js",
-  "/problem_sol": "pages/problem_sol.js",
-  "/contact": "pages/contact.js"
+  "/": "pages/index.js",
+  "/problem_sol": "pages/problem_sol.js"
 }
