@@ -194,9 +194,6 @@ const Navbar = () => {
                   <Link href="/publications">
                     <chakra.h1 size="sm">Publications</chakra.h1>
                   </Link>
-                  <Link href="/problem_sol">
-                    <chakra.h1 size="sm">Problem Solvings</chakra.h1>
-                  </Link>
                   <Link href="/contact">
                     <chakra.h1 size="sm">Contact</chakra.h1>
                   </Link>
