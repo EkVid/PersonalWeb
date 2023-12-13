@@ -36,7 +36,6 @@ const Spla = () => {
       <Center h="30vh">
         <Box
           textStyle={{ base: "txt", md: "h2" }}
-          // textAlign={"center"}
           fontFamily={`'Raleway', sans-serif`}
           w={{ base: "100%", md: "70%" }}
         >
