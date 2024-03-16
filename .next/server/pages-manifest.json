@@ -2,9 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/experiences": "pages/experiences.js",
   "/publications": "pages/publications.js",
-  "/aboutme": "pages/aboutme.js",
-  "/work": "pages/work.js",
   "/": "pages/index.js"
 }

@@ -1,7 +1,6 @@
 import { Text, Center, Divider } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import Progresses from "./progress";
-import Progresses_2 from "./prog_2";
 
 import Link from "next/link";
 
@@ -241,15 +240,20 @@ const Pub = () => {
       <br></br>
       <Divider />
       <br></br>
-      <Text
-        fontSize={{ base: "10px", md: "15px", lg: "15pxx" }}
-        fontFamily={"serif"}
-        fontWeight={"bold"}
+      <Link
+        href="https://dl.acm.org/doi/10.1145/3626253.3635538"
+        target="_blank"
+        rel="noopener noreferrer"
       >
-        Full Article Link (In Progress~~)
-      </Text>
+        <Text
+          fontSize={{ base: "10px", md: "15px", lg: "15pxx" }}
+          fontFamily={"serif"}
+          fontWeight={"bold"}
+        >
+          Full Article Link <ExternalLinkIcon mx="2px" />
+        </Text>
+      </Link>
       <br></br>
-      <Progresses_2 />
       <br></br>
       <br></br>
       <br></br>
