@@ -26,6 +26,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/geotab.js"
+    ],
+    "/resumetech": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/resumetech.js"
     ]
   },
   "ampFirstPages": []
