@@ -135,7 +135,7 @@ const Bar_Work = () => {
                     Contact
                   </Button>
                 </Link>
-          
+
                 <Link
                   href="https://github.com/EkVid"
                   leftIcon={<CheckCircleIcon />}

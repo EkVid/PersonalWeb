@@ -2,7 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/geotab": "pages/geotab.js",
-  "/aboutme": "pages/aboutme.js",
+  "/experiences": "pages/experiences.js",
+  "/publications": "pages/publications.js",
+  "/contact": "pages/contact.js",
   "/resumetech": "pages/resumetech.js"
 }

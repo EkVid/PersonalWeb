@@ -22,15 +22,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/geotab": [
+    "/contact": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/geotab.js"
+      "static/chunks/pages/contact.js"
     ],
-    "/resumetech": [
+    "/experiences": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/resumetech.js"
+      "static/chunks/pages/experiences.js"
+    ],
+    "/publications": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/publications.js"
     ]
   },
   "ampFirstPages": []
