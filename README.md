@@ -1,4 +1,6 @@
-Personal Website (This is the old version of the website, the domain name for the URL has been moved to the newer version of my website)
+## (This is the old version of the website, the domain name for the URL has been moved to the newer version of my website)
+
+Personal Website 
 Designed using Next.js and React.js with Chakra UI and Choc UI
 
 Website URL: https://austinyt.in
